@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/LOGO-BLACK.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/LOGO-BLACK-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/LOGO-BLACK-16x16.png">
+    <title>SMO YAPI</title>
+    <meta name="title" content="SMO YAPI: İnşaat Projeleriniz İçin Güvenilir ve Yaratıcı Çözümler">
+    <meta name="description"
+        content="SMO YAPI, inşaat sektöründe liderliği hedefleyen bir şirkettir. Profesyonel ekibimiz, yenilikçi yaklaşımımız ve müşteri memnuniyetine odaklanmış hizmet anlayışımız ile inşaat projelerinizde güvenilir çözümler sunuyoruz. SMO YAPI, sektörde kalite, güven ve başarıyı bir araya getirerek müşterilerine en iyi inşaat deneyimini sunmayı amaçlamaktadır.">
+    <meta name="keywords"
+        content="inşaat,yapı,yapı güçlendirme,deprem,istanbul deprem,bina durum tespit,kartal inşaat,pendik inşaat,proje,inşaat sektörü,güvenilir inşaat,inşaat çözümleri,inşaat projeleri,SMO YAPI,inşaat firması,inşaat hizmetleri,yenilikçi inşaat,müşteri memnuniyeti,profesyonel inşaat ekibi">
+    <meta name="robots" content="index, follow">
+    <meta property="og:description"
+        content="SMO YAPI, inşaat sektöründe kaliteli hizmetleriyle öne çıkan bir firma. Profesyonel ekip, yenilikçi projeler ve müşteri memnuniyeti odaklı çalışma anlayışımızla sektörde öncüyüz. İnşaat projeleriniz için güvenilir çözümler sunuyoruz.">
+    <meta property="og:title" content="SMO YAPI">
+    <meta property="og:image" content="./assets/LOGO-BLACK.png">
+    <meta property="og:url" content="https://smoyapi.com">
+</head>
+
+<style>
+    body {
+        background: url('./assets/triangle.svg') top right no-repeat;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    ::-webkit-scrollbar {
+        width: 6px;
+        background-color: #1E1E1E;
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .arrow-btn-group button:hover {
+        stroke-opacity: 1 !important;
+        transition: all;
+        transition-duration: 300ms;
+    }
+
+    .arrow-btn-group button {
+        stroke-opacity: 0.2 !important;
+        transition: all;
+        transition-duration: 300ms;
+    }
+
+    @keyframes colorTransition1 {
+
+        0%,
+        100% {
+            fill: #E8E7E8;
+        }
+
+        50% {
+            fill: #3B3B3B;
+        }
+    }
+
+    @keyframes colorTransition2 {
+
+        0%,
+        100% {
+            fill: #3B3B3B;
+        }
+
+        50% {
+            fill: #E8E7E8;
+        }
+    }
+
+    @keyframes colorTransition3 {
+
+        0%,
+        100% {
+            fill: #E8E7E8;
+        }
+
+        50% {
+            fill: #3B3B3B;
+        }
+    }
+
+    @keyframes colorTransition4 {
+
+        0%,
+        100% {
+            fill: #3B3B3B;
+        }
+
+        50% {
+            fill: #E8E7E8;
+        }
+    }
+
+    .triangle {
+        animation: colorTransition1 3s infinite;
+    }
+
+    #triangle2 {
+        animation: colorTransition2 3s infinite;
+        animation-delay: 1s;
+    }
+
+    #triangle3 {
+        animation: colorTransition3 3s infinite;
+        animation-delay: 2s;
+    }
+
+    #triangle4 {
+        animation: colorTransition4 3s infinite;
+        animation-delay: 3s;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .fade-in {
+        animation: fadeIn 0.5s ease-in-out;
+    }
+</style>
+
+<body class="scroll-smooth bg-[length:63%]">
+    <!-- header -->
+
+    <header class="bg-transparent">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+            <div class="flex lg:flex-1">
+                <a href="/" class="-m-1.5 p-1.5">
+                    <span class="sr-only">SMO YAPI</span>
+                    <img src="./assets/LOGO-BLACK.png" class="w-20" alt="SMO YAPI Siyah Logo">
+
+                </a>
+            </div>
+
+            <!-- mobile button -->
+            <div class="flex gap-x-1.5 lg:hidden">
+                <div
+                    class="relative inline-block text-left group cursor-pointer hover:bg-[#3B3B3B] hover:rounded-md hover:shadow-lg p-1">
+                    <a href="#" class="text-sm leading-6 text-slate-100 flex items-center gap-x-1">
+                        <span class="flex items-center">
+                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="stroke-current">
+                                <path
+                                    d="M9.49967 17.0914C13.8719 17.0914 17.4163 13.6132 17.4163 9.32257C17.4163 5.03195 13.8719 1.55371 9.49967 1.55371C5.12742 1.55371 1.58301 5.03195 1.58301 9.32257C1.58301 13.6132 5.12742 17.0914 9.49967 17.0914Z"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M6.33294 2.33057H7.12461C5.58086 6.86758 5.58086 11.7775 7.12461 16.3145H6.33294"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M11.875 2.33057C13.4188 6.86758 13.4188 11.7775 11.875 16.3145"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M2.375 12.4302V11.6533C6.99833 13.1682 12.0017 13.1682 16.625 11.6533V12.4302"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M2.375 6.99191C6.99833 5.47698 12.0017 5.47698 16.625 6.99191"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                        <p class="lang-mobile">TR</p>
+                        <span aria-hidden="true">
+                            <svg width="8" height="4" viewBox="0 0 8 4" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="stroke-current">
+                                <path d="M1 0.540771L4 3.05477L7 0.540771" stroke="currentColor" />
+                            </svg>
+                        </span>
+                        <div
+                            class="hidden group-hover:block absolute top-6 z-10 right-0 mt-2 w-max origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                            <div class="py-1" role="none">
+                                <button onclick="selectLangTR()"
+                                    class="turkish-mobile text-gray-700 block px-4 py-2 text-sm hover:bg-[#1B1B1B] hover:text-slate-100"
+                                    role="menuitem" tabindex="-1">Türkçe</button>
+                                <button onclick="selectLangEN()"
+                                    class="english-mobile text-gray-700 block px-4 py-2 text-sm hover:bg-[#1B1B1B] hover:text-slate-100"
+                                    role="menuitem" tabindex="-1">İngilizce</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- open -->
+                <button type="button" id="openBTN"
+                    class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-slate-100 transition duration-500 ease-in-out transition-all group">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                        aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+                    </svg>
+                </button>
+                <!-- close -->
+                <button type="button" id="closeBTN"
+                    class="transition duration-500 ease-in-out hidden -m-2.5 rounded-md p-2.5 text-slate-100">
+                    <span class="sr-only">Close menu</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                        aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+
+            </div>
+
+            <!-- nav -->
+            <div class="hidden lg:flex lg:gap-x-5 lg:justify-end">
+                <a href="/"
+                    class="home text-base leading-6 text-slate-100 hover:bg-[#3B3B3B] hover:rounded-md hover:shadow-lg p-1">Anasayfa</a>
+                <a href="/projeler"
+                    class="project text-baseleading-6 text-slate-100  hover:bg-[#3B3B3B] hover:rounded-md hover:shadow-lg p-1">Projeler</a>
+                <div
+                    class="relative inline-block text-left group cursor-pointer hover:bg-[#3B3B3B] hover:rounded-md hover:shadow-lg p-1">
+                    <div class="eng-service text-base leading-6 text-slate-100">Mühendislik Hizmetlerimiz</div>
+                    <div
+                        class="hidden group-hover:block absolute top-6 z-10 mt-2 w-max origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                        <div class="py-1" role="none">
+                            <a onclick="showForm1()"
+                                class="text-gray-700 block px-4 py-2 text-sm hover:bg-[#1B1B1B] hover:text-slate-100"
+                                role="menuitem" tabindex="-1" id="menu-item-0">Bina Durum Tespit</a>
+                            <a onclick="showForm2()"
+                                class="text-gray-700 block px-4 py-2 text-sm hover:bg-[#1B1B1B] hover:text-slate-100"
+                                role="menuitem" tabindex="-1" id="menu-item-1">Deprem Analiz Rapor</a>
+                            <a onclick="showForm3()"
+                                class="text-gray-700 block px-4 py-2 text-sm hover:bg-[#1B1B1B] hover:text-slate-100"
+                                role="menuitem" tabindex="-1" id="menu-item-2">Güçlendirme Projesi</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#"
+                    class="about text-base leading-6 text-slate-100 hover:bg-[#3B3B3B] hover:rounded-md hover:shadow-lg p-1">Hakkımızda</a>
+                <a href="#contact"
+                    class="contact text-base leading-6 text-slate-100 hover:bg-[#3B3B3B] hover:rounded-md hover:shadow-lg p-1">Bize
+                    Ulaşın</a>
+                <div
+                    class="relative inline-block text-left group cursor-pointer hover:bg-[#3B3B3B] hover:rounded-md hover:shadow-lg p-1">
+                    <a href="#" class="text-sm leading-6 text-slate-100 flex items-center gap-x-1">
+                        <span class="flex items-center">
+                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="stroke-current">
+                                <path
+                                    d="M9.49967 17.0914C13.8719 17.0914 17.4163 13.6132 17.4163 9.32257C17.4163 5.03195 13.8719 1.55371 9.49967 1.55371C5.12742 1.55371 1.58301 5.03195 1.58301 9.32257C1.58301 13.6132 5.12742 17.0914 9.49967 17.0914Z"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M6.33294 2.33057H7.12461C5.58086 6.86758 5.58086 11.7775 7.12461 16.3145H6.33294"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M11.875 2.33057C13.4188 6.86758 13.4188 11.7775 11.875 16.3145"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M2.375 12.4302V11.6533C6.99833 13.1682 12.0017 13.1682 16.625 11.6533V12.4302"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M2.375 6.99191C6.99833 5.47698 12.0017 5.47698 16.625 6.99191"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                        <p class="lang">TR</p>
+                        <span aria-hidden="true">
+                            <svg width="8" height="4" viewBox="0 0 8 4" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="stroke-current">
+                                <path d="M1 0.540771L4 3.05477L7 0.540771" stroke="currentColor" />
+                            </svg>
+                        </span>
+                        <div
+                            class="hidden group-hover:block absolute top-6 z-10 right-0 mt-2 w-max origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                            <div class="py-1" role="none">
+                                <button onclick="selectLangTR()"
+                                    class="turkish text-gray-700 block px-4 py-2 text-sm hover:bg-[#1B1B1B] hover:text-slate-100"
+                                    role="menuitem" tabindex="-1">Türkçe</button>
+                                <button onclick="selectLangEN()"
+                                    class="english text-gray-700 block px-4 py-2 text-sm hover:bg-[#1B1B1B] hover:text-slate-100"
+                                    role="menuitem" tabindex="-1">İngilizce</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- mobile menu -->
+        <div class="mt-6 flow-root hidden lg:hidden fade-in" id="mobileMENU">
+            <div class="-my-6 divide-y divide-gray-500/10">
+                <div class="space-y-2 p-6">
+                    <a href="/"
+                        class="home-mobile -mx-3 block rounded-lg px-3 py-2 text-sm font-semibold leading-7 leading-6 text-[#1E1E1E] hover:bg-gray-50 hover:w-max">Anasayfa</a>
+                    <a href="#"
+                        class="project-mobile -mx-3 block rounded-lg px-3 py-2 text-sm font-semibold leading-7 leading-6 text-[#1E1E1E] hover:bg-gray-50 hover:w-max">Projeler</a>
+                    <a href="#"
+                        class="eng-service-mobile -mx-3 block rounded-lg px-3 py-2 text-sm font-semibold leading-7 leading-6 text-[#1E1E1E] hover:bg-gray-50 hover:w-max">Mühendislik
+                        Hizmetlerimiz</a>
+                    <a href="#"
+                        class="about-mobile -mx-3 block rounded-lg px-3 py-2 text-sm font-semibold leading-7 leading-6 text-[#1E1E1E] hover:bg-gray-50 hover:w-max">Hakkımızda</a>
+                    <a href="#"
+                        class="contact-mobile -mx-3 block rounded-lg px-3 py-2 text-sm font-semibold leading-7 leading-6 text-[#1E1E1E] hover:bg-gray-50 hover:w-max">Bize
+                        Ulaşın</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- form -->
+    <div id="form" class="fixed inset-0 flex items-center justify-center z-50 hidden transition-transform duration-500">
+
+    </div>
+
+    <!-- slider -->
+    <section id="mainSlider" class="container mx-auto max-w-screen-xl px-4">
+        <div class="relative h-[32rem] md:h-screen flex items-center justify-center">
+            <img id="slideImg" src="./assets/slide1.png" class="h-full w-full" alt="slide">
+            <div class="flex flex-col absolute gap-x-1 md:left-20 lg:left-40 top-24 left-6">
+                <!-- arrow group -->
+                <div class="flex gap-x-1 arrow-btn-group hidden lg:flex">
+
+                    <!-- left arrow -->
+                    <button onclick="prevSlide()"
+                        class="transform duration-300 transition -translate-y-1/2 text-white p-2 stroke-[#111111] hover:stroke-[#3B3B3B] group">
+                        <svg width="48" height="22" viewBox="0 0 48 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.2259 1C7.19894 6.02699 2 11.2259 2 11.2259M2 11.2259L12.2259 21.4519M2 11.2259H47.2929"
+                                stroke-width="1.5" />
+                        </svg>
+                    </button>
+
+                    <!-- right arrow -->
+                    <button onclick="nextSlide()"
+                        class="transform duration-300 transition -translate-y-1/2 text-white p-2 stroke-[#111111] hover:stroke-[#3B3B3B] group">
+                        <svg width="79" height="23" viewBox="0 0 79 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M67.067 1C72.0939 6.02699 77.2929 11.2259 77.2929 11.2259M77.2929 11.2259L67.067 21.4519M77.2929 11.2259H0"
+                                stroke-width="2" />
+                        </svg>
+
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="bottom-4">
+                    <h1 class="text-2xl md:text-5xl mb-2 text-[#4C4C4C]">Geleceğin <br> İnşaası, <strong class="">
+                            Çevre<br> Dostu
+                            Adımlar</strong></h1>
+                    <p class="mt-8 mb-8 text-base sm:text-sm text-[#4C4C4C]">Sürdürülebilirlik ilkesini benimseyerek,
+                        çevre dostu <br> inşaat
+                        adımlarıyla geleceği inşa ediyoruz</p>
+                </div>
+
+                <!-- button -->
+                <div class="bottom-16">
+                    <a href="#"
+                        class="relative inline-flex items-center h-[50px] px-[35px] min-w-[180p] overflow-hidden gap-[8px] justify-start inline-block px-5 py-3 group border border-solid border-[#3B3B3B] hover:border-transparent after:transition-all transition-all hover:after:w-full after:h-full after:top-0 after:left-0 after:w-0 after:absolute bg-[#3B3B3B] after:bg-[#4B4B4B] after:duration-500 text-[#fff] stroke-[#fff]">
+                        <span
+                            class="text relative z-[2] text-[15px] font-normal xs:text-[13px] transition-colors duration-200 ease-in-out">Projelerimiz</span>
+                        <span class="relative z-[2] text-[10px] h-[10px] duration-500 group-hover:translate-x-[5px]">
+                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L6 6L1 11" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- scroll button -->
+    <a href="#content" class="absolute bottom-0 right-0 p-4 text-[#7A7A7A] hidden xl:block">
+        SCROLL
+        <span class="flex justify-center">
+            <svg width="17" height="26" viewBox="0 0 17 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M8.3 0.5H8.299C3.99173 0.5 0.5 3.99173 0.5 8.299V17.429C0.5 21.7363 3.99173 25.228 8.299 25.228H8.3C12.6073 25.228 16.099 21.7363 16.099 17.429V8.299C16.099 3.99173 12.6073 0.5 8.3 0.5Z"
+                    stroke="#333333" />
+                <path
+                    d="M9.12899 5.80998C9.12899 5.35158 8.75739 4.97998 8.29899 4.97998C7.8406 4.97998 7.46899 5.35158 7.46899 5.80998V9.12998C7.46899 9.58838 7.8406 9.95998 8.29899 9.95998C8.75739 9.95998 9.12899 9.58838 9.12899 9.12998V5.80998Z"
+                    fill="#1E1E1E" />
+            </svg>
+        </span>
+    </a>
+
+
+    <!-- content -->
+    <section id="content" class="container mx-auto max-w-screen-xl p-4 mt-6 sm:mt-10 sm:mb-10">
+        <div class="flex flex-col lg:flex-row">
+            <div class="lg:basis-1/2">
+                <img class="w-full" src="./assets/content-image-1.jpg" alt="">
+            </div>
+            <div class="lg:basis-1/2">
+                <div class="bottom-4 text-center md:text-left mt-10 sm:mt-0">
+                    <h1 class="text-3xl md:text-5xl mb-2 font-light text-[#1B1B1B] text-end">Geçmişten Geleceğe İnşa
+                        Gücü: <span class="font-medium">1996'dan Beri</span></h1>
+
+                    <div class="lg:px-24 lg:py-6 py-3">
+                        <h5 class="font-light italic">
+                            1996 yılında İstanbul/Türkiye'de kurulan KINZA YAPI, uluslararası inşaat sektöründe kısa
+                            sürede
+                            saygın bir yer edinmiştir.
+                        </h5>
+                        <p class="lg:mt-8 mt-6 mb-8 text-base font-light sm:text-sm text-[#4C4C4C]">Geçmişten bugüne
+                            uzanan köklü
+                            deneyimi ve gelecek odaklı yaklaşımıyla, müşterilerimize en yüksek kalitede hizmet sunmaya
+                            ve
+                            çevreye değer katmaya adanmış bir yapı şirketiyiz.</p>
+                        <div class="bottom-16 flex items-center justify-center md:justify-start">
+                            <a href="#"
+                                class="relative inline-flex items-center h-[50px] px-[35px] min-w-[180px] overflow-hidden relative gap-[8px] justify-start inline-block px-5 py-3 group border border-solid border-[#3B3B3B] after:transition-all transition-all hover:after:w-full after:h-full after:top-0 after:left-0 after:w-0 after:absolute after:bg-[#3B3B3B] after:duration-500 text-[#3B3B3B] stroke-[#3B3B3B] hover:stroke-[#fff] hover:text-[#fff]">
+                                <span
+                                    class="text relative z-[2] text-[15px] font-normal xs:text-[13px] transition-colors duration-200 ease-in-out">Bizi
+                                    Tanıyın</span>
+                                <span
+                                    class="relative z-[2] text-[10px] h-[10px] duration-500 group-hover:translate-x-[5px]">
+                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L6 6L1 11" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="flex flex-col-reverse lg:flex-row mt-10 sm:mt-0">
+            <div class="lg:basis-1/2">
+
+                <!-- svg -->
+                <div class="absolute left-0 hidden xl:block">
+                    <svg width="322" height="416" viewBox="0 0 322 416" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="triangle" id="triangle1" opacity="0.15"
+                            d="M112.461 0.17511C112.782 0.663635 113.048 1.23599 113.452 1.64078C118.756 6.98679 124.074 12.3188 129.42 17.6229C144.802 32.9071 160.198 48.1913 175.594 63.4755C191.772 79.5414 207.949 95.6213 224.141 111.687C238.937 126.385 253.746 141.069 268.542 155.767C285.194 172.308 301.846 188.862 318.512 205.389C319.406 206.268 320.397 207.064 321.248 207.817C319.21 209.981 317.312 212.005 315.386 214.001C314.883 214.517 314.269 214.922 313.767 215.439C299.25 229.941 284.747 244.486 270.217 258.96C254.179 274.942 238.099 290.869 222.033 306.823C206.679 322.065 191.325 337.308 175.985 352.55C159.766 368.658 143.56 384.78 127.327 400.873C122.902 405.27 118.394 409.583 113.955 413.966C113.494 414.413 113.201 415.027 112.838 415.557C96.5489 415.557 80.2597 415.557 63.9844 415.557C64.3194 415.069 64.5707 414.497 64.9894 414.092C66.8179 412.305 68.7442 410.602 70.5587 408.802C86.513 392.973 102.453 377.144 118.394 361.302C134.501 345.306 150.595 329.31 166.703 313.328C182.364 297.764 198.039 282.215 213.7 266.651C232.879 247.584 252.057 228.517 271.25 209.464C271.683 209.046 272.311 208.822 272.841 208.515C272.855 208.194 272.869 207.859 272.897 207.538C272.353 207.245 271.71 207.05 271.264 206.631C267.872 203.407 264.494 200.168 261.172 196.874C246.167 181.995 231.176 167.101 216.171 152.208C199.951 136.1 183.732 119.978 167.512 103.871C151.851 88.3073 136.176 72.7578 120.515 57.1943C101.881 38.6858 83.2607 20.1633 64.6544 1.64078C64.2357 1.23599 63.9844 0.663635 63.6494 0.161133H112.503L112.461 0.17511Z"
+                            fill="#3B3B3B" />
+                        <path class="triangle" id="triangle2" opacity="0.4"
+                            d="M0.0139618 16.9103C0.0139618 11.4387 0.0139618 5.98105 0.0139618 0.50943C0.125627 0.397766 0.237293 0.286102 0.348958 0.174438H33.1507C33.5555 0.746735 33.8905 1.40271 34.3791 1.87729C45.8527 13.2672 57.3403 24.6433 68.8279 36.0332C84.6984 51.778 100.555 67.5508 116.425 83.2956C132.128 98.9009 147.845 114.492 163.548 130.098C179.419 145.856 195.289 161.601 211.132 177.374C220.93 187.131 230.701 196.929 240.486 206.714C240.905 207.133 241.282 207.579 242.007 208.361C241.337 208.85 240.723 209.171 240.249 209.645C227.84 221.915 215.445 234.198 203.064 246.495C187.668 261.779 172.286 277.063 156.89 292.348C140.824 308.302 124.772 324.256 108.707 340.21C93.1989 355.606 77.6774 371.002 62.1838 386.412C52.9295 395.624 43.7171 404.865 34.5047 414.105C34.0999 414.51 33.8347 415.082 33.5137 415.585H0.0139618C0.0139618 410.113 0.0139618 404.655 0.0139618 399.184C0.390833 398.974 0.823538 398.835 1.13062 398.556C3.28018 396.546 5.45766 394.536 7.55139 392.47C24.371 375.776 41.1767 359.068 57.9824 342.374C73.0573 327.411 88.1321 312.448 103.207 297.47C119.343 281.446 135.506 265.422 151.614 249.37C164.93 236.11 178.204 222.794 191.493 209.506C191.953 209.045 192.386 208.557 193.182 207.719C192.484 207.244 191.87 206.923 191.395 206.463C178.358 193.565 165.335 180.64 152.326 167.729C136.776 152.291 121.227 136.853 105.692 121.415C89.514 105.35 73.3364 89.2837 57.1589 73.2039C38.6084 54.7651 20.0719 36.3263 1.52145 17.9154C1.1027 17.5107 0.544373 17.2593 0.0418775 16.9243L0.0139618 16.9103Z"
+                            fill="#3B3B3B" />
+                        <path class="triangle" id="triangle3" opacity="0.75"
+                            d="M0.0139585 369.048C0.0139585 352.871 0.0139585 336.693 0.0139585 320.516C0.502496 320.181 1.07478 319.929 1.49353 319.525C14.2513 306.892 26.9952 294.26 39.739 281.614C55.7212 265.744 71.7033 249.873 87.6715 233.989C95.8929 225.809 104.086 217.588 112.28 209.38C112.699 208.962 113.089 208.515 113.829 207.705C113.187 207.273 112.601 206.993 112.168 206.575C104.728 199.275 97.2887 191.974 89.8908 184.632C72.792 167.673 55.7072 150.7 38.6363 133.699C26.3112 121.416 14.028 109.091 1.7029 96.8073C1.21436 96.3188 0.572286 95.9837 0 95.5789C0 79.5131 0 63.4473 0 47.3814C0.334997 47.5489 0.739785 47.6466 1.00499 47.8979C2.72185 49.4751 4.46663 51.0383 6.12765 52.6854C22.9473 69.3794 39.753 86.0874 56.5586 102.781C71.2008 117.312 85.843 131.842 100.485 146.387C116.425 162.215 132.38 178.058 148.306 193.887C152.577 198.13 156.834 202.401 161.092 206.658C161.51 207.077 161.915 207.524 162.697 208.333C162.069 208.766 161.51 209.045 161.078 209.464C154.238 216.178 147.385 222.878 140.573 229.634C125.01 245.057 109.474 260.509 93.9248 275.947C77.8589 291.901 61.779 307.828 45.741 323.81C31.043 338.452 16.3869 353.15 1.7029 367.806C1.21436 368.294 0.572286 368.629 0 369.048H0.0139585Z"
+                            fill="#3B3B3B" />
+                        <path class="triangle" id="triangle4"
+                            d="M0.0139585 125.701C3.36393 129.023 6.72785 132.359 10.0778 135.681C19.695 145.228 29.2983 154.79 38.9155 164.337C53.0412 178.365 67.1529 192.379 81.2786 206.393C81.8649 206.979 82.4232 207.58 82.6884 207.873C79.492 211.181 76.4212 214.489 73.2248 217.671C64.3892 226.507 55.5118 235.287 46.6483 244.094C31.2664 259.378 15.8844 274.663 0.502495 289.933C0.348955 290.087 0.167498 290.226 0 290.366C0 274.188 0 258.011 0 241.833C3.33601 238.553 6.74181 235.356 9.98012 231.992C17.8107 223.855 25.5575 215.633 33.388 207.412C31.3222 205.332 28.5445 202.527 25.7529 199.735C17.1826 191.221 8.59826 182.72 0.0139585 174.219C0.0139585 158.042 0.0139585 141.864 0.0139585 125.687L0.0139585 125.701Z"
+                            fill="#3B3B3B" />
+                    </svg>
+
+                </div>
+
+                <!-- sectionss -->
+                <div class="p-4 mb-4 font-light flex flex-col justify-center items-center mt-10">
+                    <h2 class="text-4xl text-[#1B1B1B]">+23</h2>
+                    <p class="font-extralight text-gray-700">Yılların Tecrübesi</p>
+                </div>
+
+                <div class="p-4 mb-4 font-light flex flex-col justify-center items-center mt-10">
+                    <h2 class="text-4xl text-[#1B1B1B]">3 Kıta</h2>
+                    <p class="font-extralight text-gray-700">15 Ülke</p>
+                </div>
+
+                <div class="p-4 font-light flex flex-col justify-center items-center mt-10">
+                    <h2 class="text-4xl text-[#1B1B1B]">%80</h2>
+                    <p class="font-extralight text-gray-700">Uluslararası Projeler</p>
+                </div>
+
+            </div>
+            <div class="lg:basis-1/2">
+                <img src="./assets/content-image-2.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- cards -->
+    <section class="bg-[#1E1E1E]">
+        <div class="lg:bg-[url('./assets/square.svg')] bg-auto bg-no-repeat bg-left-bottom">
+            <div class="container mx-auto max-w-screen-xl">
+                <div class="w-full relative h-[880px] overflow-hidden" id="default-carousel" data-carousel="slide">
+
+                    <div data-carousel-item
+                        class="flex items-center flex-col lg:flex-row lg:justify-between overflow-x-hidden hidden duration-700 ease-in-out">
+                        <!-- Slider Container -->
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide swiper-slide-visible swiper-slide-active py-14">
+                                <a class="image relative overflow-hidden block w-full h-[310px] sm:h-[450px] lg:h-[550px] xl:h-[750px]"
+                                    href="">
+                                    <img class="w-full h-full object-cover object-center"
+                                        src="./assets/card-image-1.png" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="right-field relative overflow-hidden">
+                            <!-- CARD TITLE -->
+                            <div class="title-field pb-[10px] md:pb-[20px]">
+                                <h1
+                                    class="text text-[30px] font-medium [background:_linear-gradient(93deg,_#ffffff_0%,_#3B3B3B_68.34%);] [background-clip:_text_!important_;] [-webkit-background-clip:_text_!important_;] [-webkit-text-fill-color:_transparent_!important_;] lg:text-[40px] lg:text-start px-10 md:mt-10 text-center">
+                                    SMO Yapı <strong> Projeleri </strong></h1>
+                            </div>
+
+                            <!-- CARD SLİDER ARROWS -->
+                            <div class="flex gap-x-3 px-10 hidden lg:flex py-2">
+
+                            </div>
+
+                            <!-- CARD TEXTS -->
+
+                            <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                <div class="swiper-wrapper">
+
+                                    <div class="swiper-slide card-slide" style="width: 469px; margin-right: 15px;">
+                                        <div class="content-field px-10">
+                                            <a href="#"
+                                                class="title text-[25px] px-10 md:px-0 font-light tracking-[-1.02px] block [background:_linear-gradient(93deg,_#FFF_0%,_#E2E2E2_68.34%);] [background-clip:_text_!important_;] [-webkit-background-clip:_text_!important_;] [-webkit-text-fill-color:_transparent_!important_;] max-w-[390px] mb-[30px] md:text-[30px] text-center lg:text-start md:w-full lg:mx-0 mx-auto">Radisson
+                                                Blu Hotel, <strong> Havaalanı Abidjan 1</strong></a>
+                                            <p
+                                                class="text text-[17px] font-light tracking-[-0.51px] opacity-[0.85] text-slate-300 max-w-[550px] lg:text-start text-center md:w-full lg:mx-0 mx-auto p-4 md:p-0">
+                                                Bu proje Abidjan, Fildişi Sahili'nde yer almaktadır. 261 oda ve Genel
+                                                Alanlar dahil olmak üzere 31.000 m2'lik binanın beton ve MEP işleri
+                                                hariç tüm ticari işleri.</p>
+
+                                            <!-- buttons -->
+                                            <div
+                                                class="button-content flex items-center gap-[20px] pt-[40px] md:w-full md:m-auto justify-center">
+                                                <a href="#"
+                                                    class="button group h-[50px] md:px-[35px] px-[20px] md:min-w-[180px] overflow-hidden relative bg-[#3B3B3B] border border-opacity-[0.3] flex justify-center items-center gap-[10px] duration-700 before:absolute before:-left-full before:top-0 before:w-full before:h-full before:duration-450 hover:before:left-0 hover:border-[#fff] sm:max-w-[160px] sm:px-[25px] transition after:transition-all transition-all hover:after:w-full after:h-full after:top-0 after:left-0 after:w-0 after:absolute after:bg-[#1E1E1E] after:duration-500">
+                                                    <span
+                                                        class="text relative z-[2] text-[#fff] text-[15px] font-normal xs:text-[13px]">İncele</span>
+                                                    <span
+                                                        class="relative z-[2] text-[#fff] text-[10px] h-[10px] duration-700 group-hover:translate-x-[5px]">
+                                                        <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M1 1L6 6L1 11" stroke="white" />
+                                                        </svg>
+
+                                                    </span>
+                                                </a>
+                                                <a href="#"
+                                                    class="relative inline-flex items-center h-[50px] md:px-[35px] md:min-w-[180px] overflow-hidden relative gap-[8px] justify-start inline-block px-5 py-3 overflow-hidden group border border-solid border-[#FFFFFF] border-opacity-[0.3] hover:border-opacity-[1] after:transition-all transition-all hover:after:w-full after:h-full after:top-0 after:left-0 after:w-0 after:absolute after:bg-[#3B3B3B] after:duration-500">
+                                                    <span
+                                                        class="text relative z-[2] text-[#fff] text-[15px] font-normal xs:text-[13px] transition-colors duration-200 ease-in-out">Tüm
+                                                        Projeler</span>
+                                                    <span
+                                                        class="relative z-[2] text-[#fff] text-[10px] h-[10px] duration-700 group-hover:translate-x-[5px]">
+                                                        <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M1 1L6 6L1 11" stroke="white" />
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- thumbnail -->
+
+                            <div id="thumbnail" class="flex max-w-[500px] max-h-[400px] hidden lg:flex">
+                                <div class="flex-shrink-0 p-10">
+                                    <img class="w-80" src="./assets/card-image-1.png" alt="">
+                                    <div
+                                        class="bg-[#1E1E1E] absolute font-light text-slate-300 translate-y-[-3rem] max-w-max lg:text-start text-center md:w-full lg:mx-0 mx-auto py-4 pr-4">
+                                        <p>Marriott Hotel Kapadokya Nevşehir</p>
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0 p-10">
+                                    <img class="w-80 h-full" src="./assets/card-image-2.png" alt="">
+                                    <div
+                                        class="bg-[#1E1E1E] absolute font-light text-slate-300 translate-y-[-3rem] max-w-max lg:text-start text-center md:w-full lg:mx-0 mx-auto py-4 pr-4">
+                                        <p>Mangane Apart Rezidans Bamako</p>
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0 p-10">
+                                    <img class="w-80" src="./assets/card-image-3.png" alt="">
+                                    <div
+                                        class="bg-[#1E1E1E] absolute font-light text-slate-300 translate-y-[-3rem] max-w-max lg:text-start text-center md:w-full lg:mx-0 mx-auto py-4 pr-4">
+                                        <p>Marriott Hotel Kapadokya Nevşehir</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-carousel-item
+                        class="flex items-center flex-col lg:flex-row lg:justify-between overflow-x-hidden hidden duration-700 ease-in-out">
+                        <!-- Slider Container -->
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide swiper-slide-visible swiper-slide-active py-14">
+                                <a class="image relative overflow-hidden block w-full h-[310px] sm:h-[450px] lg:h-[550px] xl:h-[750px] xl:w-[780px]"
+                                    href="">
+                                    <img class="w-full h-full object-cover object-center"
+                                        src="./assets/card-image-2.png" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="right-field relative overflow-hidden">
+                            <!-- CARD TITLE -->
+                            <div class="title-field pb-[10px] md:pb-[20px] xl:pb-[60px]">
+                                <h1
+                                    class="text text-[30px] font-medium [background:_linear-gradient(93deg,_#ffffff_0%,_#3B3B3B_68.34%);] [background-clip:_text_!important_;] [-webkit-background-clip:_text_!important_;] [-webkit-text-fill-color:_transparent_!important_;] lg:text-[40px] lg:text-start px-10 md:mt-10 text-center">
+                                    SMO Yapı <strong> Projeleri </strong></h1>
+                            </div>
+
+                            <!-- CARD SLİDER ARROWS -->
+                            <div class="flex gap-x-3 px-10 hidden lg:flex py-2">
+                            </div>
+
+                            <!-- CARD TEXTS -->
+
+                            <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                <div class="swiper-wrapper">
+
+                                    <div class="swiper-slide card-slide" style="width: 469px; margin-right: 15px;">
+                                        <div class="content-field px-10">
+                                            <a href="#"
+                                                class="title text-[25px] px-10 md:px-0 font-light tracking-[-1.02px] block [background:_linear-gradient(93deg,_#FFF_0%,_#E2E2E2_68.34%);] [background-clip:_text_!important_;] [-webkit-background-clip:_text_!important_;] [-webkit-text-fill-color:_transparent_!important_;] max-w-[390px] mb-[30px] md:text-[30px] text-center lg:text-start md:w-full lg:mx-0 mx-auto">Radisson
+                                                Blu Hotel, <strong> Havaalanı Abidjan 2</strong></a>
+                                            <p
+                                                class="text text-[17px] font-light tracking-[-0.51px] opacity-[0.85] text-slate-300 max-w-[550px] lg:text-start text-center md:w-full lg:mx-0 mx-auto p-4 md:p-0">
+                                                Bu proje Abidjan, Fildişi Sahili'nde yer almaktadır. 261 oda ve Genel
+                                                Alanlar dahil olmak üzere 31.000 m2'lik binanın beton ve MEP işleri
+                                                hariç tüm ticari işleri.</p>
+
+                                            <!-- buttons -->
+                                            <div
+                                                class="button-content flex items-center gap-[20px] pt-[40px] md:w-full md:m-auto justify-center">
+                                                <a href="#"
+                                                    class="button group h-[50px] md:px-[35px] px-[20px] md:min-w-[180px] overflow-hidden relative bg-[#3B3B3B] border border-opacity-[0.3] flex justify-center items-center gap-[10px] duration-700 before:absolute before:-left-full before:top-0 before:w-full before:h-full before:duration-450 hover:before:left-0 hover:border-[#fff] sm:max-w-[160px] sm:px-[25px] transition after:transition-all transition-all hover:after:w-full after:h-full after:top-0 after:left-0 after:w-0 after:absolute after:bg-[#1E1E1E] after:duration-500">
+                                                    <span
+                                                        class="text relative z-[2] text-[#fff] text-[15px] font-normal xs:text-[13px]">İncele</span>
+                                                    <span
+                                                        class="relative z-[2] text-[#fff] text-[10px] h-[10px] duration-700 group-hover:translate-x-[5px]">
+                                                        <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M1 1L6 6L1 11" stroke="white" />
+                                                        </svg>
+
+                                                    </span>
+                                                </a>
+                                                <a href="#"
+                                                    class="relative inline-flex items-center h-[50px] md:px-[35px] md:min-w-[180px] overflow-hidden relative gap-[8px] justify-start inline-block px-5 py-3 overflow-hidden group border border-solid border-[#FFFFFF] border-opacity-[0.3] hover:border-opacity-[1] after:transition-all transition-all hover:after:w-full after:h-full after:top-0 after:left-0 after:w-0 after:absolute after:bg-[#3B3B3B] after:duration-500">
+                                                    <span
+                                                        class="text relative z-[2] text-[#fff] text-[15px] font-normal xs:text-[13px] transition-colors duration-200 ease-in-out">Tüm
+                                                        Projeler</span>
+                                                    <span
+                                                        class="relative z-[2] text-[#fff] text-[10px] h-[10px] duration-700 group-hover:translate-x-[5px]">
+                                                        <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M1 1L6 6L1 11" stroke="white" />
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- thumbnail -->
+
+                            <div id="thumbnail" class="flex max-w-[500px] max-h-[400px] hidden lg:flex">
+
+                                <div class="flex-shrink-0 p-10">
+                                    <img class="w-80 h-full" src="./assets/card-image-2.png" alt="">
+                                    <div
+                                        class="bg-[#1E1E1E] absolute font-light text-slate-300 translate-y-[-3rem] max-w-max lg:text-start text-center md:w-full lg:mx-0 mx-auto py-4 pr-4">
+                                        <p>Mangane Apart Rezidans Bamako</p>
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0 p-10">
+                                    <img class="w-80" src="./assets/card-image-3.png" alt="">
+                                    <div
+                                        class="bg-[#1E1E1E] absolute font-light text-slate-300 translate-y-[-3rem] max-w-max lg:text-start text-center md:w-full lg:mx-0 mx-auto py-4 pr-4">
+                                        <p>Marriott Hotel Kapadokya Nevşehir</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-carousel-item
+                        class="flex items-center flex-col lg:flex-row lg:justify-between overflow-x-hidden hidden duration-700 ease-in-out">
+                        <!-- Slider Container -->
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide swiper-slide-visible swiper-slide-active py-14">
+                                <a class="image relative overflow-hidden block w-full h-[310px] sm:h-[450px] lg:h-[550px] xl:h-[750px] xl:w-[780px]"
+                                    href="">
+                                    <img class="w-full h-full object-cover object-center"
+                                        src="./assets/card-image-3.png" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="right-field relative overflow-hidden">
+                            <!-- CARD TITLE -->
+                            <div class="title-field pb-[10px] md:pb-[20px] xl:pb-[60px]">
+                                <h1
+                                    class="text text-[30px] font-medium [background:_linear-gradient(93deg,_#ffffff_0%,_#3B3B3B_68.34%);] [background-clip:_text_!important_;] [-webkit-background-clip:_text_!important_;] [-webkit-text-fill-color:_transparent_!important_;] lg:text-[40px] lg:text-start px-10 md:mt-10 text-center">
+                                    SMO Yapı <strong> Projeleri </strong></h1>
+                            </div>
+
+                            <!-- CARD SLİDER ARROWS -->
+                            <div class="flex gap-x-3 px-10 hidden lg:flex py-2">
+                            </div>
+
+                            <!-- CARD TEXTS -->
+
+                            <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                <div class="swiper-wrapper">
+
+                                    <div class="swiper-slide card-slide" style="width: 469px; margin-right: 15px;">
+                                        <div class="content-field px-10">
+                                            <a href="#"
+                                                class="title text-[25px] px-10 md:px-0 font-light tracking-[-1.02px] block [background:_linear-gradient(93deg,_#FFF_0%,_#E2E2E2_68.34%);] [background-clip:_text_!important_;] [-webkit-background-clip:_text_!important_;] [-webkit-text-fill-color:_transparent_!important_;] max-w-[390px] mb-[30px] md:text-[30px] text-center lg:text-start md:w-full lg:mx-0 mx-auto">Radisson
+                                                Blu Hotel, <strong> Havaalanı Abidjan 3</strong></a>
+                                            <p
+                                                class="text text-[17px] font-light tracking-[-0.51px] opacity-[0.85] text-slate-300 max-w-[550px] lg:text-start text-center md:w-full lg:mx-0 mx-auto p-4 md:p-0">
+                                                Bu proje Abidjan, Fildişi Sahili'nde yer almaktadır. 261 oda ve Genel
+                                                Alanlar dahil olmak üzere 31.000 m2'lik binanın beton ve MEP işleri
+                                                hariç tüm ticari işleri.</p>
+
+                                            <!-- buttons -->
+                                            <div
+                                                class="button-content flex items-center gap-[20px] pt-[40px] md:w-full md:m-auto justify-center">
+                                                <a href="#"
+                                                    class="button group h-[50px] md:px-[35px] px-[20px] md:min-w-[180px] overflow-hidden relative bg-[#3B3B3B] border border-opacity-[0.3] flex justify-center items-center gap-[10px] duration-700 before:absolute before:-left-full before:top-0 before:w-full before:h-full before:duration-450 hover:before:left-0 hover:border-[#fff] sm:max-w-[160px] sm:px-[25px] transition after:transition-all transition-all hover:after:w-full after:h-full after:top-0 after:left-0 after:w-0 after:absolute after:bg-[#1E1E1E] after:duration-500">
+                                                    <span
+                                                        class="text relative z-[2] text-[#fff] text-[15px] font-normal xs:text-[13px]">İncele</span>
+                                                    <span
+                                                        class="relative z-[2] text-[#fff] text-[10px] h-[10px] duration-700 group-hover:translate-x-[5px]">
+                                                        <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M1 1L6 6L1 11" stroke="white" />
+                                                        </svg>
+
+                                                    </span>
+                                                </a>
+                                                <a href="#"
+                                                    class="relative inline-flex items-center h-[50px] md:px-[35px] md:min-w-[180px] overflow-hidden relative gap-[8px] justify-start inline-block px-5 py-3 overflow-hidden group border border-solid border-[#FFFFFF] border-opacity-[0.3] hover:border-opacity-[1] after:transition-all transition-all hover:after:w-full after:h-full after:top-0 after:left-0 after:w-0 after:absolute after:bg-[#3B3B3B] after:duration-500">
+                                                    <span
+                                                        class="text relative z-[2] text-[#fff] text-[15px] font-normal xs:text-[13px] transition-colors duration-200 ease-in-out">Tüm
+                                                        Projeler</span>
+                                                    <span
+                                                        class="relative z-[2] text-[#fff] text-[10px] h-[10px] duration-700 group-hover:translate-x-[5px]">
+                                                        <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M1 1L6 6L1 11" stroke="white" />
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- thumbnail -->
+
+                            <div id="thumbnail" class="flex max-w-[500px] max-h-[400px] hidden lg:flex">
+                                <div class="flex-shrink-0 p-10">
+                                    <img class="w-80" src="./assets/card-image-3.png" alt="">
+                                    <div
+                                        class="bg-[#1E1E1E] absolute font-light text-slate-300 translate-y-[-3rem] max-w-max lg:text-start text-center md:w-full lg:mx-0 mx-auto py-4 pr-4">
+                                        <p>Marriott Hotel Kapadokya Nevşehir</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hidden xl:block">
+
+                        <button type="button"
+                            class="absolute top-[8.5rem] start-[50.5rem] z-30 flex items-center justify-center px-4 cursor-pointer group focus:outline-none"
+                            data-carousel-prev>
+                            <span
+                                class="inline-flex items-center justify-center w-15 h-15 rounded-full stroke-[#8A8A8A] hover:stroke-[#FFFFFF]">
+                                <svg width="48" height="22" viewBox="0 0 48 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.2259 1C7.19894 6.02699 2 11.2259 2 11.2259M2 11.2259L12.2259 21.4519M2 11.2259H47.2929"
+                                        stroke-width="1.5"></path>
+                                </svg>
+                                <span class="sr-only">Previous</span>
+                            </span>
+                        </button>
+                        <button type="button"
+                            class="absolute top-[8.5rem] end-[18.5rem] z-30 flex items-center justify-center px-4 cursor-pointer group focus:outline-none"
+                            data-carousel-next>
+                            <span
+                                class="inline-flex items-center justify-center w-15 h-15 rounded-full stroke-[#8A8A8A] hover:stroke-[#FFFFFF]">
+                                <svg width="79" height="23" viewBox="0 0 79 23" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M67.067 1C72.0939 6.02699 77.2929 11.2259 77.2929 11.2259M77.2929 11.2259L67.067 21.4519M77.2929 11.2259H0"
+                                        stroke-width="2"></path>
+                                </svg>
+                                <span class="sr-only">Next</span>
+                            </span>
+                        </button>
+                    </div>
+
+
+
+                </div>
+            </div>
+    </section>
+
+
+    <!-- card section -->
+
+    <section class="container mx-auto max-w-screen-xl p-4 mt-6 sm:mt-10 sm:mb-10 overflow-x-hidden">
+
+        <!-- title & button -->
+        <div
+            class="top-field flex flex-col md:flex-row justify-center md:justify-between w-full pt-[100px] lg:items-center sm:pt-[50px]">
+
+            <div
+                class="title-field text-[#1B1B1B] lg:text-[58px] font-light leading-[80px] tracking-[-1.74px] text-[45px] md:text-center">
+                Bizden
+                <strong class="bold-title font-medium">Haberler</strong>
+            </div>
+
+            <div class="py-4">
+                <div class="button duration-450 xs:pt-[35px]">
+                    <a href="#"
+                        class="relative inline-flex items-center h-[50px] px-[35px] min-w-[180px] overflow-hidden gap-[8px] justify-start inline-block px-5 py-3 overflow-hidden group border border-solid border-[#3B3B3B] after:transition-all transition-all hover:after:w-full after:h-full after:top-0 after:left-0 after:w-0 after:absolute after:bg-[#3B3B3B] after:duration-500 text-[#3B3B3B] stroke-[#3B3B3B] hover:stroke-[#fff] hover:text-[#fff]">
+                        <span
+                            class="text relative z-[2] text-[15px] font-normal xs:text-[13px] transition-colors duration-200 ease-in-out">Tümünü
+                            Gör</span>
+                        <span class="relative z-[2] text-[10px] h-[10px] duration-500 group-hover:translate-x-[5px]">
+                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L6 6L1 11" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="flex md:flex-row flex-wrap md:flex-nowrap">
+            <div class="md:flex-shrink-0 md:mr-10 mb-6 md:mb-0 infiniteSlide group cursor-pointer max-h-[580px]">
+                <img class="group-hover:scale-[1.01] group-hover:duration-500" src="./assets/bizden1.png" alt="">
+                <div
+                    class="md:relative md:p-6 md:bg-[#fff] md:translate-y-[-9rem] md:translate-x-[-2.2rem] flex md:justify-end max-w-[580px]">
+                    <div
+                        class="py-4 text-[#636363] stroke-[#636363] group-hover:stroke-[#fff] bg-[#F1F1F1] group-hover:text-[#fff] group-hover:bg-[#E24312] transition transition-colors group-hover:ease-in-out duration-500 flex flex-col md:flex-row justify-center p-6">
+                        <p class="flex items-center md:pr-8 ml-2">Mimari Harikalar: Dünyanın En Etkileyici İnşaat
+                            Projeleri
+                            Ve Yapıları</p>
+                        <a href="#"
+                            class="relative inline-flex items-center overflow-hidden gap-[8px] justify-start inline-block md:px-14 md:py-12 p-4 group border border-solid border-[#CACACA]  group-hover:border-transparent group-hover:bg-[#E66036] hover:after:w-full after:h-full after:top-0 after:left-0 after:w-0 after:absolute after:bg-[#E24312] after:duration-500">
+                            <span class="text relative z-[2] text-[15px] font-normal xs:text-[13px]">İncele</span>
+                            <span
+                                class="relative z-[2] text-[10px] h-[10px] duration-200 group-hover:translate-x-[5px]">
+                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L6 6L1 11" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="md:flex-shrink-0 md:mr-10 mb-6 md:mb-0 infiniteSlide group cursor-pointer max-h-[580px]">
+                <img class="group-hover:scale-[1.01] group-hover:duration-500" src="./assets/bizden2.png" alt="">
+                <div
+                    class="md:relative md:p-6 md:bg-[#fff] md:translate-y-[-9rem] md:translate-x-[-2.2rem] flex md:justify-end max-w-[580px]">
+                    <div
+                        class="py-4 text-[#636363] stroke-[#636363] group-hover:stroke-[#fff] bg-[#F1F1F1] group-hover:text-[#fff] group-hover:bg-[#E24312] transition transition-colors group-hover:ease-in-out duration-500 flex flex-col md:flex-row justify-center p-6">
+                        <p class="flex items-center md:pr-8 ml-2">Sürdürülebilir ve Yeşil İnşaat Teknolojileri:
+                            Geleceğin
+                            Yapıları</p>
+                        <a href="#"
+                            class="relative inline-flex items-center overflow-hidden gap-[8px] justify-start inline-block md:px-14 md:py-12 p-4 group border border-solid border-[#CACACA]  group-hover:border-transparent group-hover:bg-[#E66036] hover:after:w-full after:h-full after:top-0 after:left-0 after:w-0 after:absolute after:bg-[#E24312] after:duration-500">
+                            <span class="text relative z-[2] text-[15px] font-normal xs:text-[13px]">İncele</span>
+                            <span
+                                class="relative z-[2] text-[10px] h-[10px] duration-200 group-hover:translate-x-[5px]">
+                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L6 6L1 11" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="md:flex-shrink-0 md:mr-10 mb-6 md:mb-0 infiniteSlide group cursor-pointer max-h-[580px]">
+                <img class="group-hover:scale-[1.01] group-hover:duration-500" src="./assets/bizden3.png" alt="">
+                <div
+                    class="md:relative md:p-6 md:bg-[#fff] md:translate-y-[-9rem] md:translate-x-[-2.2rem] flex md:justify-end max-w-[580px]">
+                    <div
+                        class="py-4 text-[#636363] stroke-[#636363] group-hover:stroke-[#fff] bg-[#F1F1F1] group-hover:text-[#fff] group-hover:bg-[#E24312] transition transition-colors group-hover:ease-in-out duration-500 flex flex-col md:flex-row justify-center p-6">
+                        <p class="flex items-center md:pr-8 ml-2">İnşaat Projelerinde Maliyet Verimliliği ve İş
+                            Süreçleri
+                            Optimizasyonu</p>
+                        <a href="#"
+                            class="relative inline-flex items-center overflow-hidden gap-[8px] justify-start inline-block md:px-14 md:py-12 p-4 group border border-solid border-[#CACACA]  group-hover:border-transparent group-hover:bg-[#E66036] hover:after:w-full after:h-full after:top-0 after:left-0 after:w-0 after:absolute after:bg-[#E24312] after:duration-500">
+                            <span class="text relative z-[2] text-[15px] font-normal xs:text-[13px]">İncele</span>
+                            <span
+                                class="relative z-[2] text-[10px] h-[10px] duration-200 group-hover:translate-x-[5px]">
+                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L6 6L1 11" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <!-- quality -->
+        <section class="bg-[#1E1E1E]">
+            <div class="container mx-auto max-w-screen-xl overflow-x-hidden">
+                <div
+                    class="flex lg:flex-row flex-col-reverse justify-between items-center md:justify-center md:gap-[15px]">
+                    <div class="flex gap-[15px] flex-col md:flex-row">
+                        <div class="md:flex-shrink-0 items-center gap-[15px] p-4">
+                            <!-- iso -->
+                            <a href="#" class="cursor-default group relative opacity-100 hover:border-opacity-0 hover:before:top-0 before:absolute before:top-full after:transition-all transition-all hover:after:w-full after:h-full after:top-0 
+                            after:left-0 after:w-0 after:absolute after:bg-[#3B3B3B] after:duration-500">
+                                <span class="relative z-[2]">
+                                    <svg width="209" height="189" viewBox="0 0 209 189" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="1.02669" y="0.432943" width="206.947" height="187.897" stroke="white"
+                                            stroke-opacity="0.16" stroke-width="0.865885" />
+                                        <path
+                                            d="M78.5038 73.2539V64.676H56.0105V73.2539H61.1717V91.6025H56.0105V100.18H78.5038V91.6025H73.3426V73.2539H78.5038Z"
+                                            fill="url(#paint0_linear_0_252)" />
+                                        <path
+                                            d="M103.328 78.2993C101.937 77.8964 94.7841 75.8582 93.5451 75.4567C92.3062 75.0551 91.295 74.4758 91.295 73.745C91.295 73.0143 92.4326 72.2348 94.7327 72.2348C96.7379 72.16 98.7357 72.5191 100.589 73.2876C102.443 74.0562 104.109 75.2159 105.473 76.6877C105.473 76.6877 105.868 77.2144 105.999 77.3947H112.998V65.2448H105.484V67.4555C102.072 65.3356 98.1205 64.2431 94.1034 64.3087C85.4334 64.3087 80.6053 68.7853 80.6053 75.4803C80.6053 82.1754 86.6973 84.9404 88.3905 85.6448C90.0837 86.3492 96.7064 88.2109 99.5385 89.0917C102.371 89.9726 103.405 90.6019 103.405 91.0548C103.405 91.5077 102.166 92.6901 98.6274 92.6901C96.761 92.7478 94.9052 92.3904 93.1938 91.6436C91.4825 90.8967 89.9583 89.7791 88.7315 88.3715C88.5538 88.1358 88.3471 87.8554 88.276 87.7501C88.2049 87.6447 88.0047 87.3551 87.8731 87.1708H80.8738V100.146H88.7315V97.4366C92.0784 99.6076 95.9553 100.822 99.9427 100.948C106.211 100.948 114.199 98.2305 114.199 89.7566C114.199 81.2827 104.718 78.7022 103.328 78.2993Z"
+                                            fill="url(#paint1_linear_0_252)" />
+                                        <path
+                                            d="M134.148 64.1914C123.697 64.1914 115.126 69.3921 115.126 82.6677C115.126 95.9434 124.431 100.916 134.194 100.916C143.956 100.916 153.169 95.9895 153.169 82.8047C153.169 69.6199 143.956 64.1914 134.148 64.1914ZM134.24 92.0659C130.664 92.0659 128.373 91.2443 128.373 82.6217C128.373 73.999 130.069 73.0866 134.377 73.0866C136.989 73.0866 140.151 73.2683 140.151 82.3478C140.151 91.4273 137.814 92.0659 134.24 92.0659Z"
+                                            fill="url(#paint2_linear_0_252)" />
+                                        <path
+                                            d="M70.9994 60.7605C73.3494 57.3062 76.2358 54.2491 79.5496 51.7047C80.9027 52.6989 82.3262 53.5935 83.8089 54.3814C81.3073 57.1635 79.0558 60.2444 78.6832 60.7605H80.1882C81.0914 59.5492 82.9531 57.1121 84.928 54.9516C87.119 56.0194 89.405 56.8803 91.7561 57.5229C91.1202 58.8646 90.6409 60.0377 90.3592 60.7605H91.6666C91.9668 60.0166 92.4065 58.9791 92.9556 57.8323C96.068 58.5845 99.2535 58.9934 102.455 59.0515V60.7632H103.669V59.0568C106.848 59.038 110.016 58.6752 113.117 57.9745C113.635 59.0634 114.051 60.0469 114.339 60.7592H115.646C115.375 60.0654 114.922 58.9568 114.33 57.6809C116.722 57.0666 119.051 56.2291 121.287 55.1793C123.182 57.2859 124.951 59.594 125.824 60.7632H127.328C126.967 60.2629 124.837 57.3399 122.417 54.6224C124.064 53.7774 125.641 52.8027 127.133 51.7074C130.447 54.2517 133.333 57.3088 135.683 60.7632H137.142C133.481 55.1345 128.472 50.5093 122.57 47.3075C116.668 44.1057 110.06 42.4287 103.345 42.4287C96.6306 42.4287 90.0223 44.1057 84.1203 47.3075C78.2183 50.5093 73.2095 55.1345 69.5484 60.7632H71.0086L70.9994 60.7605ZM92.2959 56.4156C90.0602 55.8182 87.8836 55.0183 85.7931 54.026C86.0722 53.7376 86.3513 53.4572 86.6265 53.1925C89.2594 50.8557 92.0869 48.7476 95.078 46.8911C95.9311 47.3541 96.8271 47.7333 97.7534 48.0234C97.0121 48.9911 95.5546 50.9569 93.9694 53.4493C93.3532 54.4236 92.7897 55.4427 92.2959 56.4183V56.4156ZM102.454 57.8402C99.4382 57.7841 96.4371 57.4085 93.5007 56.7198C93.9496 55.8455 94.4513 54.9463 94.9924 54.0957C96.8199 51.2242 98.4683 49.0675 99.0173 48.3657C100.145 48.6283 101.294 48.7861 102.45 48.8371V57.8389L102.454 57.8402ZM103.668 57.8402V48.8555C104.813 48.8376 105.953 48.7164 107.076 48.4935C107.704 49.3019 109.275 51.3795 111.005 54.0997C111.575 54.995 112.099 55.943 112.567 56.8646C109.642 57.5025 106.659 57.8325 103.666 57.8495L103.668 57.8402ZM113.783 56.5657C113.252 55.4965 112.667 54.4546 112.031 53.444C110.527 51.0741 109.134 49.19 108.367 48.1775C109.352 47.9054 110.309 47.5372 111.223 47.0781C114.108 48.8819 116.835 50.9264 119.375 53.1899C119.72 53.5204 120.069 53.8732 120.417 54.2432C118.281 55.2212 116.06 56.0013 113.782 56.5736L113.783 56.5657ZM126.101 50.949C124.659 51.9812 123.139 52.8986 121.554 53.6928C121.107 53.2149 120.655 52.7541 120.209 52.3249C117.776 50.1341 115.163 48.1521 112.398 46.4C112.985 46.0241 113.534 45.5939 114.04 45.115C118.367 46.3491 122.447 48.3229 126.101 50.949ZM103.336 43.6338C106.469 43.6329 109.591 44.0082 112.635 44.7516C109.901 46.6415 106.657 47.6539 103.333 47.6539C100.01 47.6539 96.7651 46.6415 94.0313 44.7516C97.0769 44.0078 100.201 43.6325 103.336 43.6338ZM92.6251 45.1216C93.0335 45.51 93.4715 45.8661 93.9351 46.1867C91.0485 47.9973 88.322 50.0513 85.7852 52.3262C85.4113 52.6843 85.0347 53.0674 84.6594 53.4624C83.237 52.7234 81.8691 51.8839 80.566 50.9503C84.2192 48.326 88.2992 46.354 92.6251 45.1216Z"
+                                            fill="url(#paint3_linear_0_252)" />
+                                        <path
+                                            d="M135.675 104.204C133.375 107.585 130.56 110.586 127.334 113.098C125.78 111.938 124.132 110.909 122.407 110.024C124.507 107.667 126.388 105.152 127.085 104.204H125.568C124.637 105.442 123.006 107.542 121.272 109.471C119.036 108.421 116.707 107.583 114.315 106.969C114.828 105.874 115.237 104.903 115.51 104.211H114.194C113.916 104.885 113.546 105.742 113.102 106.676C110.001 105.976 106.833 105.614 103.654 105.596V104.211H102.44V105.592C99.2383 105.649 96.0523 106.057 92.9393 106.809C92.4653 105.818 92.073 104.91 91.7807 104.202H90.4641C90.7537 104.927 91.1856 105.958 91.7346 107.118C89.3834 107.76 87.0975 108.62 84.9065 109.688C83.0975 107.704 81.3753 105.487 80.4076 104.2H78.8961C79.615 105.181 81.6031 107.834 83.7887 110.257C82.2264 111.086 80.7299 112.033 79.3122 113.09C76.0855 110.578 73.2713 107.577 70.9713 104.196H69.5138C73.1746 109.825 78.1834 114.45 84.0853 117.652C89.9872 120.854 96.5953 122.531 103.31 122.531C110.024 122.531 116.632 120.854 122.534 117.652C128.436 114.45 133.445 109.825 137.106 104.196H135.648L135.675 104.204ZM113.783 108.07C116.061 108.641 118.281 109.42 120.416 110.398C120.067 110.765 119.717 111.118 119.372 111.451C116.835 113.712 114.111 115.754 111.23 117.556C110.316 117.095 109.358 116.726 108.37 116.454C109.143 115.438 110.528 113.558 112.028 111.188C112.665 110.179 113.251 109.139 113.783 108.071V108.07ZM103.666 106.797C106.659 106.815 109.642 107.146 112.566 107.784C112.099 108.706 111.574 109.651 111.004 110.549C109.275 113.265 107.712 115.342 107.077 116.151C105.953 115.93 104.811 115.81 103.666 115.793V106.799V106.797ZM102.452 106.797V115.797C101.294 115.847 100.143 116.004 99.0143 116.265C98.4613 115.558 96.8181 113.407 94.9933 110.54C94.4521 109.688 93.9505 108.789 93.5002 107.914C96.437 107.229 99.4381 106.856 102.453 106.803L102.452 106.797ZM92.2955 108.225C92.7905 109.202 93.3488 110.221 93.9702 111.192C95.5502 113.683 97.0104 115.647 97.7529 116.616C96.8263 116.906 95.9302 117.285 95.0775 117.75C92.087 115.893 89.2601 113.786 86.6274 111.45C86.3509 111.186 86.0731 110.905 85.7926 110.616C87.883 109.623 90.0596 108.823 92.2955 108.225ZM80.3457 113.854C81.7132 112.856 83.1542 111.962 84.6564 111.181C85.0316 111.576 85.4095 111.959 85.7834 112.319C88.3198 114.593 91.046 116.647 93.9321 118.457C93.3727 118.845 92.8516 119.286 92.3758 119.773C88.0542 118.51 83.984 116.508 80.3457 113.855V113.854ZM103.335 121.33C100.101 121.332 96.8789 120.934 93.7425 120.145C96.5221 118.098 99.8832 116.995 103.335 116.995C106.786 116.995 110.148 118.098 112.927 120.145C109.791 120.935 106.569 121.333 103.335 121.331V121.33ZM114.294 119.768C113.726 119.188 113.095 118.673 112.412 118.233C115.175 116.484 117.785 114.505 120.215 112.317C120.661 111.888 121.113 111.426 121.56 110.948C123.226 111.783 124.82 112.755 126.325 113.852C122.687 116.505 118.616 118.507 114.294 119.769V119.768Z"
+                                            fill="url(#paint4_linear_0_252)" />
+                                        <path
+                                            d="M70.1997 149.553H71.5437C71.7517 150.753 72.5197 151.457 73.8637 151.457C75.5597 151.457 76.4717 150.305 76.4237 146.913C75.9597 147.889 74.8077 148.449 73.5597 148.449C71.4317 148.449 69.8477 147.121 69.8477 144.673C69.8477 142.465 71.1597 140.865 73.6557 140.865C76.7917 140.865 77.7037 143.073 77.7037 146.657C77.7037 150.513 76.8237 152.673 73.7837 152.673C71.4797 152.673 70.3597 151.249 70.1997 149.553ZM73.7997 147.217C75.1917 147.217 76.2477 146.305 76.2477 144.753C76.2477 143.185 75.3517 142.081 73.6877 142.081C72.1837 142.081 71.2397 143.105 71.2397 144.641C71.2397 146.129 72.0717 147.217 73.7997 147.217ZM79.4298 146.753C79.4298 143.441 80.2618 140.913 83.4618 140.913C86.6458 140.913 87.4778 143.441 87.4778 146.753C87.4778 150.113 86.6458 152.657 83.4618 152.657C80.2618 152.657 79.4298 150.113 79.4298 146.753ZM86.0378 146.753C86.0378 144.353 85.7338 142.241 83.4618 142.241C81.1738 142.241 80.8698 144.353 80.8698 146.753C80.8698 149.249 81.1738 151.329 83.4618 151.329C85.7338 151.329 86.0378 149.249 86.0378 146.753ZM89.1567 146.753C89.1567 143.441 89.9887 140.913 93.1887 140.913C96.3727 140.913 97.2047 143.441 97.2047 146.753C97.2047 150.113 96.3727 152.657 93.1887 152.657C89.9887 152.657 89.1567 150.113 89.1567 146.753ZM95.7647 146.753C95.7647 144.353 95.4607 142.241 93.1887 142.241C90.9007 142.241 90.5967 144.353 90.5967 146.753C90.5967 149.249 90.9007 151.329 93.1887 151.329C95.4607 151.329 95.7647 149.249 95.7647 146.753ZM100.036 152.657V142.417H98.4996V141.089H101.508V152.657H100.036ZM105.353 151.761C105.353 152.321 104.921 152.753 104.393 152.753C103.833 152.753 103.401 152.321 103.401 151.761C103.401 151.201 103.833 150.769 104.393 150.769C104.921 150.769 105.353 151.201 105.353 151.761ZM105.353 144.913C105.353 145.473 104.921 145.905 104.393 145.905C103.833 145.905 103.401 145.473 103.401 144.913C103.401 144.353 103.833 143.921 104.393 143.921C104.921 143.921 105.353 144.353 105.353 144.913ZM106.599 152.529V151.489C109.639 149.041 112.519 146.737 112.519 144.369C112.519 143.089 111.959 142.129 110.391 142.129C108.887 142.129 108.119 143.169 108.055 144.625H106.647C106.743 142.161 108.295 140.881 110.375 140.881C112.551 140.881 113.959 142.161 113.959 144.305C113.959 147.185 110.855 149.633 108.791 151.313H114.295V152.529H106.599ZM115.658 146.753C115.658 143.441 116.49 140.913 119.69 140.913C122.874 140.913 123.706 143.441 123.706 146.753C123.706 150.113 122.874 152.657 119.69 152.657C116.49 152.657 115.658 150.113 115.658 146.753ZM122.266 146.753C122.266 144.353 121.962 142.241 119.69 142.241C117.402 142.241 117.098 144.353 117.098 146.753C117.098 149.249 117.402 151.329 119.69 151.329C121.962 151.329 122.266 149.249 122.266 146.753ZM126.537 152.657V142.417H125.001V141.089H128.009V152.657H126.537ZM130.606 141.073H137.566V142.353H131.95V146.001C132.43 145.345 133.454 144.833 134.59 144.833C137.406 144.833 138.302 146.865 138.302 148.657C138.302 150.897 137.054 152.689 134.35 152.689C132.046 152.689 130.654 151.393 130.366 149.521H131.79C132.062 150.737 133.006 151.457 134.366 151.457C136.126 151.457 136.91 150.273 136.91 148.689C136.91 147.041 136.062 146.081 134.382 146.081C133.214 146.081 132.366 146.689 131.982 147.601H130.606V141.073Z"
+                                            fill="white" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_0_252" x1="56.0105" y1="64.676"
+                                                x2="72.0841" y2="65.1508" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white" />
+                                                <stop offset="1" stop-color="#E2E2E2" />
+                                            </linearGradient>
+                                            <linearGradient id="paint1_linear_0_252" x1="80.6053" y1="64.3059"
+                                                x2="104.588" y2="65.3311" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white" />
+                                                <stop offset="1" stop-color="#E2E2E2" />
+                                            </linearGradient>
+                                            <linearGradient id="paint2_linear_0_252" x1="115.126" y1="64.1914"
+                                                x2="142.272" y2="65.5024" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white" />
+                                                <stop offset="1" stop-color="#E2E2E2" />
+                                            </linearGradient>
+                                            <linearGradient id="paint3_linear_0_252" x1="69.5484" y1="42.4287"
+                                                x2="116.505" y2="50.4998" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white" />
+                                                <stop offset="1" stop-color="#E2E2E2" />
+                                            </linearGradient>
+                                            <linearGradient id="paint4_linear_0_252" x1="69.5138" y1="104.196"
+                                                x2="116.47" y2="112.267" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white" />
+                                                <stop offset="1" stop-color="#E2E2E2" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="md:flex-shrink-0 items-center gap-[15px] p-4 hidden md:flex">
+                            <!-- iso -->
+                            <a href="#" class="cursor-default group relative opacity-100 hover:border-opacity-0 hover:before:top-0 before:absolute before:top-full after:transition-all transition-all hover:after:w-full after:h-full after:top-0 
+        after:left-0 after:w-0 after:absolute after:bg-[#3B3B3B] after:duration-500">
+                                <span class="relative z-[2]">
+                                    <svg width="209" height="189" viewBox="0 0 209 189" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="1.02669" y="0.432943" width="206.947" height="187.897" stroke="white"
+                                            stroke-opacity="0.16" stroke-width="0.865885" />
+                                        <path
+                                            d="M78.5038 73.2539V64.676H56.0105V73.2539H61.1717V91.6025H56.0105V100.18H78.5038V91.6025H73.3426V73.2539H78.5038Z"
+                                            fill="url(#paint0_linear_0_252)" />
+                                        <path
+                                            d="M103.328 78.2993C101.937 77.8964 94.7841 75.8582 93.5451 75.4567C92.3062 75.0551 91.295 74.4758 91.295 73.745C91.295 73.0143 92.4326 72.2348 94.7327 72.2348C96.7379 72.16 98.7357 72.5191 100.589 73.2876C102.443 74.0562 104.109 75.2159 105.473 76.6877C105.473 76.6877 105.868 77.2144 105.999 77.3947H112.998V65.2448H105.484V67.4555C102.072 65.3356 98.1205 64.2431 94.1034 64.3087C85.4334 64.3087 80.6053 68.7853 80.6053 75.4803C80.6053 82.1754 86.6973 84.9404 88.3905 85.6448C90.0837 86.3492 96.7064 88.2109 99.5385 89.0917C102.371 89.9726 103.405 90.6019 103.405 91.0548C103.405 91.5077 102.166 92.6901 98.6274 92.6901C96.761 92.7478 94.9052 92.3904 93.1938 91.6436C91.4825 90.8967 89.9583 89.7791 88.7315 88.3715C88.5538 88.1358 88.3471 87.8554 88.276 87.7501C88.2049 87.6447 88.0047 87.3551 87.8731 87.1708H80.8738V100.146H88.7315V97.4366C92.0784 99.6076 95.9553 100.822 99.9427 100.948C106.211 100.948 114.199 98.2305 114.199 89.7566C114.199 81.2827 104.718 78.7022 103.328 78.2993Z"
+                                            fill="url(#paint1_linear_0_252)" />
+                                        <path
+                                            d="M134.148 64.1914C123.697 64.1914 115.126 69.3921 115.126 82.6677C115.126 95.9434 124.431 100.916 134.194 100.916C143.956 100.916 153.169 95.9895 153.169 82.8047C153.169 69.6199 143.956 64.1914 134.148 64.1914ZM134.24 92.0659C130.664 92.0659 128.373 91.2443 128.373 82.6217C128.373 73.999 130.069 73.0866 134.377 73.0866C136.989 73.0866 140.151 73.2683 140.151 82.3478C140.151 91.4273 137.814 92.0659 134.24 92.0659Z"
+                                            fill="url(#paint2_linear_0_252)" />
+                                        <path
+                                            d="M70.9994 60.7605C73.3494 57.3062 76.2358 54.2491 79.5496 51.7047C80.9027 52.6989 82.3262 53.5935 83.8089 54.3814C81.3073 57.1635 79.0558 60.2444 78.6832 60.7605H80.1882C81.0914 59.5492 82.9531 57.1121 84.928 54.9516C87.119 56.0194 89.405 56.8803 91.7561 57.5229C91.1202 58.8646 90.6409 60.0377 90.3592 60.7605H91.6666C91.9668 60.0166 92.4065 58.9791 92.9556 57.8323C96.068 58.5845 99.2535 58.9934 102.455 59.0515V60.7632H103.669V59.0568C106.848 59.038 110.016 58.6752 113.117 57.9745C113.635 59.0634 114.051 60.0469 114.339 60.7592H115.646C115.375 60.0654 114.922 58.9568 114.33 57.6809C116.722 57.0666 119.051 56.2291 121.287 55.1793C123.182 57.2859 124.951 59.594 125.824 60.7632H127.328C126.967 60.2629 124.837 57.3399 122.417 54.6224C124.064 53.7774 125.641 52.8027 127.133 51.7074C130.447 54.2517 133.333 57.3088 135.683 60.7632H137.142C133.481 55.1345 128.472 50.5093 122.57 47.3075C116.668 44.1057 110.06 42.4287 103.345 42.4287C96.6306 42.4287 90.0223 44.1057 84.1203 47.3075C78.2183 50.5093 73.2095 55.1345 69.5484 60.7632H71.0086L70.9994 60.7605ZM92.2959 56.4156C90.0602 55.8182 87.8836 55.0183 85.7931 54.026C86.0722 53.7376 86.3513 53.4572 86.6265 53.1925C89.2594 50.8557 92.0869 48.7476 95.078 46.8911C95.9311 47.3541 96.8271 47.7333 97.7534 48.0234C97.0121 48.9911 95.5546 50.9569 93.9694 53.4493C93.3532 54.4236 92.7897 55.4427 92.2959 56.4183V56.4156ZM102.454 57.8402C99.4382 57.7841 96.4371 57.4085 93.5007 56.7198C93.9496 55.8455 94.4513 54.9463 94.9924 54.0957C96.8199 51.2242 98.4683 49.0675 99.0173 48.3657C100.145 48.6283 101.294 48.7861 102.45 48.8371V57.8389L102.454 57.8402ZM103.668 57.8402V48.8555C104.813 48.8376 105.953 48.7164 107.076 48.4935C107.704 49.3019 109.275 51.3795 111.005 54.0997C111.575 54.995 112.099 55.943 112.567 56.8646C109.642 57.5025 106.659 57.8325 103.666 57.8495L103.668 57.8402ZM113.783 56.5657C113.252 55.4965 112.667 54.4546 112.031 53.444C110.527 51.0741 109.134 49.19 108.367 48.1775C109.352 47.9054 110.309 47.5372 111.223 47.0781C114.108 48.8819 116.835 50.9264 119.375 53.1899C119.72 53.5204 120.069 53.8732 120.417 54.2432C118.281 55.2212 116.06 56.0013 113.782 56.5736L113.783 56.5657ZM126.101 50.949C124.659 51.9812 123.139 52.8986 121.554 53.6928C121.107 53.2149 120.655 52.7541 120.209 52.3249C117.776 50.1341 115.163 48.1521 112.398 46.4C112.985 46.0241 113.534 45.5939 114.04 45.115C118.367 46.3491 122.447 48.3229 126.101 50.949ZM103.336 43.6338C106.469 43.6329 109.591 44.0082 112.635 44.7516C109.901 46.6415 106.657 47.6539 103.333 47.6539C100.01 47.6539 96.7651 46.6415 94.0313 44.7516C97.0769 44.0078 100.201 43.6325 103.336 43.6338ZM92.6251 45.1216C93.0335 45.51 93.4715 45.8661 93.9351 46.1867C91.0485 47.9973 88.322 50.0513 85.7852 52.3262C85.4113 52.6843 85.0347 53.0674 84.6594 53.4624C83.237 52.7234 81.8691 51.8839 80.566 50.9503C84.2192 48.326 88.2992 46.354 92.6251 45.1216Z"
+                                            fill="url(#paint3_linear_0_252)" />
+                                        <path
+                                            d="M135.675 104.204C133.375 107.585 130.56 110.586 127.334 113.098C125.78 111.938 124.132 110.909 122.407 110.024C124.507 107.667 126.388 105.152 127.085 104.204H125.568C124.637 105.442 123.006 107.542 121.272 109.471C119.036 108.421 116.707 107.583 114.315 106.969C114.828 105.874 115.237 104.903 115.51 104.211H114.194C113.916 104.885 113.546 105.742 113.102 106.676C110.001 105.976 106.833 105.614 103.654 105.596V104.211H102.44V105.592C99.2383 105.649 96.0523 106.057 92.9393 106.809C92.4653 105.818 92.073 104.91 91.7807 104.202H90.4641C90.7537 104.927 91.1856 105.958 91.7346 107.118C89.3834 107.76 87.0975 108.62 84.9065 109.688C83.0975 107.704 81.3753 105.487 80.4076 104.2H78.8961C79.615 105.181 81.6031 107.834 83.7887 110.257C82.2264 111.086 80.7299 112.033 79.3122 113.09C76.0855 110.578 73.2713 107.577 70.9713 104.196H69.5138C73.1746 109.825 78.1834 114.45 84.0853 117.652C89.9872 120.854 96.5953 122.531 103.31 122.531C110.024 122.531 116.632 120.854 122.534 117.652C128.436 114.45 133.445 109.825 137.106 104.196H135.648L135.675 104.204ZM113.783 108.07C116.061 108.641 118.281 109.42 120.416 110.398C120.067 110.765 119.717 111.118 119.372 111.451C116.835 113.712 114.111 115.754 111.23 117.556C110.316 117.095 109.358 116.726 108.37 116.454C109.143 115.438 110.528 113.558 112.028 111.188C112.665 110.179 113.251 109.139 113.783 108.071V108.07ZM103.666 106.797C106.659 106.815 109.642 107.146 112.566 107.784C112.099 108.706 111.574 109.651 111.004 110.549C109.275 113.265 107.712 115.342 107.077 116.151C105.953 115.93 104.811 115.81 103.666 115.793V106.799V106.797ZM102.452 106.797V115.797C101.294 115.847 100.143 116.004 99.0143 116.265C98.4613 115.558 96.8181 113.407 94.9933 110.54C94.4521 109.688 93.9505 108.789 93.5002 107.914C96.437 107.229 99.4381 106.856 102.453 106.803L102.452 106.797ZM92.2955 108.225C92.7905 109.202 93.3488 110.221 93.9702 111.192C95.5502 113.683 97.0104 115.647 97.7529 116.616C96.8263 116.906 95.9302 117.285 95.0775 117.75C92.087 115.893 89.2601 113.786 86.6274 111.45C86.3509 111.186 86.0731 110.905 85.7926 110.616C87.883 109.623 90.0596 108.823 92.2955 108.225ZM80.3457 113.854C81.7132 112.856 83.1542 111.962 84.6564 111.181C85.0316 111.576 85.4095 111.959 85.7834 112.319C88.3198 114.593 91.046 116.647 93.9321 118.457C93.3727 118.845 92.8516 119.286 92.3758 119.773C88.0542 118.51 83.984 116.508 80.3457 113.855V113.854ZM103.335 121.33C100.101 121.332 96.8789 120.934 93.7425 120.145C96.5221 118.098 99.8832 116.995 103.335 116.995C106.786 116.995 110.148 118.098 112.927 120.145C109.791 120.935 106.569 121.333 103.335 121.331V121.33ZM114.294 119.768C113.726 119.188 113.095 118.673 112.412 118.233C115.175 116.484 117.785 114.505 120.215 112.317C120.661 111.888 121.113 111.426 121.56 110.948C123.226 111.783 124.82 112.755 126.325 113.852C122.687 116.505 118.616 118.507 114.294 119.769V119.768Z"
+                                            fill="url(#paint4_linear_0_252)" />
+                                        <path
+                                            d="M70.1997 149.553H71.5437C71.7517 150.753 72.5197 151.457 73.8637 151.457C75.5597 151.457 76.4717 150.305 76.4237 146.913C75.9597 147.889 74.8077 148.449 73.5597 148.449C71.4317 148.449 69.8477 147.121 69.8477 144.673C69.8477 142.465 71.1597 140.865 73.6557 140.865C76.7917 140.865 77.7037 143.073 77.7037 146.657C77.7037 150.513 76.8237 152.673 73.7837 152.673C71.4797 152.673 70.3597 151.249 70.1997 149.553ZM73.7997 147.217C75.1917 147.217 76.2477 146.305 76.2477 144.753C76.2477 143.185 75.3517 142.081 73.6877 142.081C72.1837 142.081 71.2397 143.105 71.2397 144.641C71.2397 146.129 72.0717 147.217 73.7997 147.217ZM79.4298 146.753C79.4298 143.441 80.2618 140.913 83.4618 140.913C86.6458 140.913 87.4778 143.441 87.4778 146.753C87.4778 150.113 86.6458 152.657 83.4618 152.657C80.2618 152.657 79.4298 150.113 79.4298 146.753ZM86.0378 146.753C86.0378 144.353 85.7338 142.241 83.4618 142.241C81.1738 142.241 80.8698 144.353 80.8698 146.753C80.8698 149.249 81.1738 151.329 83.4618 151.329C85.7338 151.329 86.0378 149.249 86.0378 146.753ZM89.1567 146.753C89.1567 143.441 89.9887 140.913 93.1887 140.913C96.3727 140.913 97.2047 143.441 97.2047 146.753C97.2047 150.113 96.3727 152.657 93.1887 152.657C89.9887 152.657 89.1567 150.113 89.1567 146.753ZM95.7647 146.753C95.7647 144.353 95.4607 142.241 93.1887 142.241C90.9007 142.241 90.5967 144.353 90.5967 146.753C90.5967 149.249 90.9007 151.329 93.1887 151.329C95.4607 151.329 95.7647 149.249 95.7647 146.753ZM100.036 152.657V142.417H98.4996V141.089H101.508V152.657H100.036ZM105.353 151.761C105.353 152.321 104.921 152.753 104.393 152.753C103.833 152.753 103.401 152.321 103.401 151.761C103.401 151.201 103.833 150.769 104.393 150.769C104.921 150.769 105.353 151.201 105.353 151.761ZM105.353 144.913C105.353 145.473 104.921 145.905 104.393 145.905C103.833 145.905 103.401 145.473 103.401 144.913C103.401 144.353 103.833 143.921 104.393 143.921C104.921 143.921 105.353 144.353 105.353 144.913ZM106.599 152.529V151.489C109.639 149.041 112.519 146.737 112.519 144.369C112.519 143.089 111.959 142.129 110.391 142.129C108.887 142.129 108.119 143.169 108.055 144.625H106.647C106.743 142.161 108.295 140.881 110.375 140.881C112.551 140.881 113.959 142.161 113.959 144.305C113.959 147.185 110.855 149.633 108.791 151.313H114.295V152.529H106.599ZM115.658 146.753C115.658 143.441 116.49 140.913 119.69 140.913C122.874 140.913 123.706 143.441 123.706 146.753C123.706 150.113 122.874 152.657 119.69 152.657C116.49 152.657 115.658 150.113 115.658 146.753ZM122.266 146.753C122.266 144.353 121.962 142.241 119.69 142.241C117.402 142.241 117.098 144.353 117.098 146.753C117.098 149.249 117.402 151.329 119.69 151.329C121.962 151.329 122.266 149.249 122.266 146.753ZM126.537 152.657V142.417H125.001V141.089H128.009V152.657H126.537ZM130.606 141.073H137.566V142.353H131.95V146.001C132.43 145.345 133.454 144.833 134.59 144.833C137.406 144.833 138.302 146.865 138.302 148.657C138.302 150.897 137.054 152.689 134.35 152.689C132.046 152.689 130.654 151.393 130.366 149.521H131.79C132.062 150.737 133.006 151.457 134.366 151.457C136.126 151.457 136.91 150.273 136.91 148.689C136.91 147.041 136.062 146.081 134.382 146.081C133.214 146.081 132.366 146.689 131.982 147.601H130.606V141.073Z"
+                                            fill="white" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_0_252" x1="56.0105" y1="64.676"
+                                                x2="72.0841" y2="65.1508" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white" />
+                                                <stop offset="1" stop-color="#E2E2E2" />
+                                            </linearGradient>
+                                            <linearGradient id="paint1_linear_0_252" x1="80.6053" y1="64.3059"
+                                                x2="104.588" y2="65.3311" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white" />
+                                                <stop offset="1" stop-color="#E2E2E2" />
+                                            </linearGradient>
+                                            <linearGradient id="paint2_linear_0_252" x1="115.126" y1="64.1914"
+                                                x2="142.272" y2="65.5024" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white" />
+                                                <stop offset="1" stop-color="#E2E2E2" />
+                                            </linearGradient>
+                                            <linearGradient id="paint3_linear_0_252" x1="69.5484" y1="42.4287"
+                                                x2="116.505" y2="50.4998" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white" />
+                                                <stop offset="1" stop-color="#E2E2E2" />
+                                            </linearGradient>
+                                            <linearGradient id="paint4_linear_0_252" x1="69.5138" y1="104.196"
+                                                x2="116.47" y2="112.267" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white" />
+                                                <stop offset="1" stop-color="#E2E2E2" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="md:flex-shrink-0 items-center gap-[15px] p-4 hidden md:flex">
+                            <!-- iso -->
+                            <a href="#" class="cursor-default group relative opacity-100 hover:border-opacity-0 hover:before:top-0 before:absolute before:top-full after:transition-all transition-all hover:after:w-full after:h-full after:top-0 
+                            after:left-0 after:w-0 after:absolute after:bg-[#3B3B3B] after:duration-500">
+                                <span class="relative z-[2]">
+                                    <svg width="209" height="189" viewBox="0 0 209 189" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="1.02669" y="0.432943" width="206.947" height="187.897" stroke="white"
+                                            stroke-opacity="0.16" stroke-width="0.865885" />
+                                        <path
+                                            d="M78.5038 73.2539V64.676H56.0105V73.2539H61.1717V91.6025H56.0105V100.18H78.5038V91.6025H73.3426V73.2539H78.5038Z"
+                                            fill="url(#paint0_linear_0_252)" />
+                                        <path
+                                            d="M103.328 78.2993C101.937 77.8964 94.7841 75.8582 93.5451 75.4567C92.3062 75.0551 91.295 74.4758 91.295 73.745C91.295 73.0143 92.4326 72.2348 94.7327 72.2348C96.7379 72.16 98.7357 72.5191 100.589 73.2876C102.443 74.0562 104.109 75.2159 105.473 76.6877C105.473 76.6877 105.868 77.2144 105.999 77.3947H112.998V65.2448H105.484V67.4555C102.072 65.3356 98.1205 64.2431 94.1034 64.3087C85.4334 64.3087 80.6053 68.7853 80.6053 75.4803C80.6053 82.1754 86.6973 84.9404 88.3905 85.6448C90.0837 86.3492 96.7064 88.2109 99.5385 89.0917C102.371 89.9726 103.405 90.6019 103.405 91.0548C103.405 91.5077 102.166 92.6901 98.6274 92.6901C96.761 92.7478 94.9052 92.3904 93.1938 91.6436C91.4825 90.8967 89.9583 89.7791 88.7315 88.3715C88.5538 88.1358 88.3471 87.8554 88.276 87.7501C88.2049 87.6447 88.0047 87.3551 87.8731 87.1708H80.8738V100.146H88.7315V97.4366C92.0784 99.6076 95.9553 100.822 99.9427 100.948C106.211 100.948 114.199 98.2305 114.199 89.7566C114.199 81.2827 104.718 78.7022 103.328 78.2993Z"
+                                            fill="url(#paint1_linear_0_252)" />
+                                        <path
+                                            d="M134.148 64.1914C123.697 64.1914 115.126 69.3921 115.126 82.6677C115.126 95.9434 124.431 100.916 134.194 100.916C143.956 100.916 153.169 95.9895 153.169 82.8047C153.169 69.6199 143.956 64.1914 134.148 64.1914ZM134.24 92.0659C130.664 92.0659 128.373 91.2443 128.373 82.6217C128.373 73.999 130.069 73.0866 134.377 73.0866C136.989 73.0866 140.151 73.2683 140.151 82.3478C140.151 91.4273 137.814 92.0659 134.24 92.0659Z"
+                                            fill="url(#paint2_linear_0_252)" />
+                                        <path
+                                            d="M70.9994 60.7605C73.3494 57.3062 76.2358 54.2491 79.5496 51.7047C80.9027 52.6989 82.3262 53.5935 83.8089 54.3814C81.3073 57.1635 79.0558 60.2444 78.6832 60.7605H80.1882C81.0914 59.5492 82.9531 57.1121 84.928 54.9516C87.119 56.0194 89.405 56.8803 91.7561 57.5229C91.1202 58.8646 90.6409 60.0377 90.3592 60.7605H91.6666C91.9668 60.0166 92.4065 58.9791 92.9556 57.8323C96.068 58.5845 99.2535 58.9934 102.455 59.0515V60.7632H103.669V59.0568C106.848 59.038 110.016 58.6752 113.117 57.9745C113.635 59.0634 114.051 60.0469 114.339 60.7592H115.646C115.375 60.0654 114.922 58.9568 114.33 57.6809C116.722 57.0666 119.051 56.2291 121.287 55.1793C123.182 57.2859 124.951 59.594 125.824 60.7632H127.328C126.967 60.2629 124.837 57.3399 122.417 54.6224C124.064 53.7774 125.641 52.8027 127.133 51.7074C130.447 54.2517 133.333 57.3088 135.683 60.7632H137.142C133.481 55.1345 128.472 50.5093 122.57 47.3075C116.668 44.1057 110.06 42.4287 103.345 42.4287C96.6306 42.4287 90.0223 44.1057 84.1203 47.3075C78.2183 50.5093 73.2095 55.1345 69.5484 60.7632H71.0086L70.9994 60.7605ZM92.2959 56.4156C90.0602 55.8182 87.8836 55.0183 85.7931 54.026C86.0722 53.7376 86.3513 53.4572 86.6265 53.1925C89.2594 50.8557 92.0869 48.7476 95.078 46.8911C95.9311 47.3541 96.8271 47.7333 97.7534 48.0234C97.0121 48.9911 95.5546 50.9569 93.9694 53.4493C93.3532 54.4236 92.7897 55.4427 92.2959 56.4183V56.4156ZM102.454 57.8402C99.4382 57.7841 96.4371 57.4085 93.5007 56.7198C93.9496 55.8455 94.4513 54.9463 94.9924 54.0957C96.8199 51.2242 98.4683 49.0675 99.0173 48.3657C100.145 48.6283 101.294 48.7861 102.45 48.8371V57.8389L102.454 57.8402ZM103.668 57.8402V48.8555C104.813 48.8376 105.953 48.7164 107.076 48.4935C107.704 49.3019 109.275 51.3795 111.005 54.0997C111.575 54.995 112.099 55.943 112.567 56.8646C109.642 57.5025 106.659 57.8325 103.666 57.8495L103.668 57.8402ZM113.783 56.5657C113.252 55.4965 112.667 54.4546 112.031 53.444C110.527 51.0741 109.134 49.19 108.367 48.1775C109.352 47.9054 110.309 47.5372 111.223 47.0781C114.108 48.8819 116.835 50.9264 119.375 53.1899C119.72 53.5204 120.069 53.8732 120.417 54.2432C118.281 55.2212 116.06 56.0013 113.782 56.5736L113.783 56.5657ZM126.101 50.949C124.659 51.9812 123.139 52.8986 121.554 53.6928C121.107 53.2149 120.655 52.7541 120.209 52.3249C117.776 50.1341 115.163 48.1521 112.398 46.4C112.985 46.0241 113.534 45.5939 114.04 45.115C118.367 46.3491 122.447 48.3229 126.101 50.949ZM103.336 43.6338C106.469 43.6329 109.591 44.0082 112.635 44.7516C109.901 46.6415 106.657 47.6539 103.333 47.6539C100.01 47.6539 96.7651 46.6415 94.0313 44.7516C97.0769 44.0078 100.201 43.6325 103.336 43.6338ZM92.6251 45.1216C93.0335 45.51 93.4715 45.8661 93.9351 46.1867C91.0485 47.9973 88.322 50.0513 85.7852 52.3262C85.4113 52.6843 85.0347 53.0674 84.6594 53.4624C83.237 52.7234 81.8691 51.8839 80.566 50.9503C84.2192 48.326 88.2992 46.354 92.6251 45.1216Z"
+                                            fill="url(#paint3_linear_0_252)" />
+                                        <path
+                                            d="M135.675 104.204C133.375 107.585 130.56 110.586 127.334 113.098C125.78 111.938 124.132 110.909 122.407 110.024C124.507 107.667 126.388 105.152 127.085 104.204H125.568C124.637 105.442 123.006 107.542 121.272 109.471C119.036 108.421 116.707 107.583 114.315 106.969C114.828 105.874 115.237 104.903 115.51 104.211H114.194C113.916 104.885 113.546 105.742 113.102 106.676C110.001 105.976 106.833 105.614 103.654 105.596V104.211H102.44V105.592C99.2383 105.649 96.0523 106.057 92.9393 106.809C92.4653 105.818 92.073 104.91 91.7807 104.202H90.4641C90.7537 104.927 91.1856 105.958 91.7346 107.118C89.3834 107.76 87.0975 108.62 84.9065 109.688C83.0975 107.704 81.3753 105.487 80.4076 104.2H78.8961C79.615 105.181 81.6031 107.834 83.7887 110.257C82.2264 111.086 80.7299 112.033 79.3122 113.09C76.0855 110.578 73.2713 107.577 70.9713 104.196H69.5138C73.1746 109.825 78.1834 114.45 84.0853 117.652C89.9872 120.854 96.5953 122.531 103.31 122.531C110.024 122.531 116.632 120.854 122.534 117.652C128.436 114.45 133.445 109.825 137.106 104.196H135.648L135.675 104.204ZM113.783 108.07C116.061 108.641 118.281 109.42 120.416 110.398C120.067 110.765 119.717 111.118 119.372 111.451C116.835 113.712 114.111 115.754 111.23 117.556C110.316 117.095 109.358 116.726 108.37 116.454C109.143 115.438 110.528 113.558 112.028 111.188C112.665 110.179 113.251 109.139 113.783 108.071V108.07ZM103.666 106.797C106.659 106.815 109.642 107.146 112.566 107.784C112.099 108.706 111.574 109.651 111.004 110.549C109.275 113.265 107.712 115.342 107.077 116.151C105.953 115.93 104.811 115.81 103.666 115.793V106.799V106.797ZM102.452 106.797V115.797C101.294 115.847 100.143 116.004 99.0143 116.265C98.4613 115.558 96.8181 113.407 94.9933 110.54C94.4521 109.688 93.9505 108.789 93.5002 107.914C96.437 107.229 99.4381 106.856 102.453 106.803L102.452 106.797ZM92.2955 108.225C92.7905 109.202 93.3488 110.221 93.9702 111.192C95.5502 113.683 97.0104 115.647 97.7529 116.616C96.8263 116.906 95.9302 117.285 95.0775 117.75C92.087 115.893 89.2601 113.786 86.6274 111.45C86.3509 111.186 86.0731 110.905 85.7926 110.616C87.883 109.623 90.0596 108.823 92.2955 108.225ZM80.3457 113.854C81.7132 112.856 83.1542 111.962 84.6564 111.181C85.0316 111.576 85.4095 111.959 85.7834 112.319C88.3198 114.593 91.046 116.647 93.9321 118.457C93.3727 118.845 92.8516 119.286 92.3758 119.773C88.0542 118.51 83.984 116.508 80.3457 113.855V113.854ZM103.335 121.33C100.101 121.332 96.8789 120.934 93.7425 120.145C96.5221 118.098 99.8832 116.995 103.335 116.995C106.786 116.995 110.148 118.098 112.927 120.145C109.791 120.935 106.569 121.333 103.335 121.331V121.33ZM114.294 119.768C113.726 119.188 113.095 118.673 112.412 118.233C115.175 116.484 117.785 114.505 120.215 112.317C120.661 111.888 121.113 111.426 121.56 110.948C123.226 111.783 124.82 112.755 126.325 113.852C122.687 116.505 118.616 118.507 114.294 119.769V119.768Z"
+                                            fill="url(#paint4_linear_0_252)" />
+                                        <path
+                                            d="M70.1997 149.553H71.5437C71.7517 150.753 72.5197 151.457 73.8637 151.457C75.5597 151.457 76.4717 150.305 76.4237 146.913C75.9597 147.889 74.8077 148.449 73.5597 148.449C71.4317 148.449 69.8477 147.121 69.8477 144.673C69.8477 142.465 71.1597 140.865 73.6557 140.865C76.7917 140.865 77.7037 143.073 77.7037 146.657C77.7037 150.513 76.8237 152.673 73.7837 152.673C71.4797 152.673 70.3597 151.249 70.1997 149.553ZM73.7997 147.217C75.1917 147.217 76.2477 146.305 76.2477 144.753C76.2477 143.185 75.3517 142.081 73.6877 142.081C72.1837 142.081 71.2397 143.105 71.2397 144.641C71.2397 146.129 72.0717 147.217 73.7997 147.217ZM79.4298 146.753C79.4298 143.441 80.2618 140.913 83.4618 140.913C86.6458 140.913 87.4778 143.441 87.4778 146.753C87.4778 150.113 86.6458 152.657 83.4618 152.657C80.2618 152.657 79.4298 150.113 79.4298 146.753ZM86.0378 146.753C86.0378 144.353 85.7338 142.241 83.4618 142.241C81.1738 142.241 80.8698 144.353 80.8698 146.753C80.8698 149.249 81.1738 151.329 83.4618 151.329C85.7338 151.329 86.0378 149.249 86.0378 146.753ZM89.1567 146.753C89.1567 143.441 89.9887 140.913 93.1887 140.913C96.3727 140.913 97.2047 143.441 97.2047 146.753C97.2047 150.113 96.3727 152.657 93.1887 152.657C89.9887 152.657 89.1567 150.113 89.1567 146.753ZM95.7647 146.753C95.7647 144.353 95.4607 142.241 93.1887 142.241C90.9007 142.241 90.5967 144.353 90.5967 146.753C90.5967 149.249 90.9007 151.329 93.1887 151.329C95.4607 151.329 95.7647 149.249 95.7647 146.753ZM100.036 152.657V142.417H98.4996V141.089H101.508V152.657H100.036ZM105.353 151.761C105.353 152.321 104.921 152.753 104.393 152.753C103.833 152.753 103.401 152.321 103.401 151.761C103.401 151.201 103.833 150.769 104.393 150.769C104.921 150.769 105.353 151.201 105.353 151.761ZM105.353 144.913C105.353 145.473 104.921 145.905 104.393 145.905C103.833 145.905 103.401 145.473 103.401 144.913C103.401 144.353 103.833 143.921 104.393 143.921C104.921 143.921 105.353 144.353 105.353 144.913ZM106.599 152.529V151.489C109.639 149.041 112.519 146.737 112.519 144.369C112.519 143.089 111.959 142.129 110.391 142.129C108.887 142.129 108.119 143.169 108.055 144.625H106.647C106.743 142.161 108.295 140.881 110.375 140.881C112.551 140.881 113.959 142.161 113.959 144.305C113.959 147.185 110.855 149.633 108.791 151.313H114.295V152.529H106.599ZM115.658 146.753C115.658 143.441 116.49 140.913 119.69 140.913C122.874 140.913 123.706 143.441 123.706 146.753C123.706 150.113 122.874 152.657 119.69 152.657C116.49 152.657 115.658 150.113 115.658 146.753ZM122.266 146.753C122.266 144.353 121.962 142.241 119.69 142.241C117.402 142.241 117.098 144.353 117.098 146.753C117.098 149.249 117.402 151.329 119.69 151.329C121.962 151.329 122.266 149.249 122.266 146.753ZM126.537 152.657V142.417H125.001V141.089H128.009V152.657H126.537ZM130.606 141.073H137.566V142.353H131.95V146.001C132.43 145.345 133.454 144.833 134.59 144.833C137.406 144.833 138.302 146.865 138.302 148.657C138.302 150.897 137.054 152.689 134.35 152.689C132.046 152.689 130.654 151.393 130.366 149.521H131.79C132.062 150.737 133.006 151.457 134.366 151.457C136.126 151.457 136.91 150.273 136.91 148.689C136.91 147.041 136.062 146.081 134.382 146.081C133.214 146.081 132.366 146.689 131.982 147.601H130.606V141.073Z"
+                                            fill="white" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_0_252" x1="56.0105" y1="64.676"
+                                                x2="72.0841" y2="65.1508" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white" />
+                                                <stop offset="1" stop-color="#E2E2E2" />
+                                            </linearGradient>
+                                            <linearGradient id="paint1_linear_0_252" x1="80.6053" y1="64.3059"
+                                                x2="104.588" y2="65.3311" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white" />
+                                                <stop offset="1" stop-color="#E2E2E2" />
+                                            </linearGradient>
+                                            <linearGradient id="paint2_linear_0_252" x1="115.126" y1="64.1914"
+                                                x2="142.272" y2="65.5024" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white" />
+                                                <stop offset="1" stop-color="#E2E2E2" />
+                                            </linearGradient>
+                                            <linearGradient id="paint3_linear_0_252" x1="69.5484" y1="42.4287"
+                                                x2="116.505" y2="50.4998" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white" />
+                                                <stop offset="1" stop-color="#E2E2E2" />
+                                            </linearGradient>
+                                            <linearGradient id="paint4_linear_0_252" x1="69.5138" y1="104.196"
+                                                x2="116.47" y2="112.267" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="white" />
+                                                <stop offset="1" stop-color="#E2E2E2" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="md:pb-[100px] p-6 md:py-[80px] md:px-[50px] px-[10px]">
+                        <h1
+                            class="text text-[30px] md:text-[60px] [background:_linear-gradient(93deg,_#ffffff_0%,_#3B3B3B_68.34%);] [background-clip:_text_!important_;] [-webkit-background-clip:_text_!important_;] [-webkit-text-fill-color:_transparent_!important_;] font-medium xl:text-[40px] md:text-right">
+                            Kalitede Belgeli, <strong>Güvenle İnşa Ediyoruz</strong>
+                        </h1>
+                    </div>
+
+                    <div class="absolute right-0 hidden xl:block">
+                        <svg width="191" height="289" viewBox="0 0 191 289" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_0_230)">
+                                <path
+                                    d="M247.626 320.968H265.254C265.332 320.19 264.663 319.879 264.243 319.443C253.927 309.097 243.69 298.673 233.235 288.467C219.559 275.118 206.257 261.38 192.565 248.046C181.643 237.404 171.001 226.482 160.111 215.794C144.506 200.5 129.134 184.973 113.622 169.586C110.884 166.863 108.099 164.187 105.345 161.48C104.365 160.515 104.381 160.422 105.345 159.457C110.293 154.51 115.178 149.484 120.219 144.614C133.257 132.043 145.781 118.959 158.757 106.341C172.277 93.1787 185.393 79.5963 198.913 66.4339C212.138 53.5516 224.973 40.2493 238.213 27.3826C247.253 18.6077 256.028 9.58386 265.02 0.762299C265.238 0.560059 265.596 0.420044 265.487 -3.05176e-05H247.86C247.128 0.186646 246.63 0.699951 246.117 1.21338C237.591 9.75488 229.143 18.3899 220.493 26.8069C207.299 39.627 194.541 52.8671 181.363 65.6871C168.357 78.3516 155.754 91.4051 142.748 104.054C129.476 116.967 116.61 130.27 103.354 143.183C97.9863 148.411 92.7431 153.732 87.3911 158.975C85.9597 160.375 85.9597 160.562 87.3911 161.962C102.389 176.556 116.983 191.554 131.919 206.194C144.086 218.112 155.941 230.31 168.139 242.196C182.11 255.825 195.708 269.828 209.664 283.457C221.939 295.421 233.919 307.681 246.117 319.723C246.568 320.175 247.019 320.626 247.611 320.921L247.626 320.968Z"
+                                    fill="#FFFFFF" fill-opacity="0.45" />
+                                <path
+                                    d="M276.363 320.969H293.757C294.068 320.565 293.757 320.3 293.539 320.02C293.29 319.709 292.979 319.429 292.699 319.149C285.526 311.977 278.447 304.711 271.166 297.647C257.708 284.594 244.701 271.074 231.259 257.989C218.112 245.185 205.354 231.991 192.208 219.187C178.859 206.196 165.898 192.784 152.549 179.793C146.373 173.788 140.352 167.642 134.191 161.621C134.019 161.45 133.848 161.279 133.677 161.108C133.117 160.501 133.117 160.485 133.708 159.847C133.879 159.676 134.051 159.505 134.222 159.334C142.219 151.337 150.122 143.247 158.228 135.359C171.717 122.259 184.755 108.723 198.213 95.6226C211.298 82.8804 223.993 69.7336 237.093 56.9914C250.614 43.829 263.745 30.2621 277.265 17.0842C282.601 11.8878 287.813 6.5824 293.134 1.37036C293.508 0.996979 294.099 0.716919 293.975 0.0168152H276.347C275.802 0.296844 275.367 0.701324 274.947 1.13696C269.657 6.42679 264.445 11.8099 259.062 17.0064C245.853 29.7486 233.157 43.0044 220.01 55.7933C206.972 68.4734 194.339 81.5734 181.301 94.2535C168.061 107.136 155.241 120.423 142.001 133.305C133.288 141.784 124.793 150.466 116.127 158.992C114.618 160.485 114.618 160.485 116.127 161.994C120.795 166.662 125.4 171.392 130.145 175.981C143.806 189.175 156.968 202.882 170.566 216.137C183.51 228.74 196.066 241.746 209.011 254.349C222.251 267.231 235.071 280.518 248.311 293.4C257.319 302.159 266.078 311.137 275.025 319.943C275.429 320.347 275.834 320.72 276.347 320.985L276.363 320.969Z"
+                                    fill="#FFFFFF" fill-opacity="0.65" />
+                                <path
+                                    d="M236.751 0.0473633H219.123C218.392 0.23407 217.894 0.747559 217.381 1.26096C205.541 13.1009 193.81 25.0497 181.846 36.7496C168.699 49.6008 155.894 62.8098 142.716 75.6454C129.632 88.3876 116.936 101.534 103.852 114.277C90.6739 127.097 77.8383 140.275 64.7226 153.157C62.6534 155.179 60.5375 157.155 58.4837 159.209C57.348 160.329 57.3635 160.5 58.5927 161.729C70.0591 173.196 81.4167 184.771 93.0232 196.098C106.014 208.778 118.632 221.816 131.639 234.48C144.91 247.394 157.761 260.712 171.033 273.625C183.977 286.227 196.564 299.187 209.477 311.821C212.604 314.886 215.716 317.966 218.89 321H236.518C236.875 320.347 236.3 320.051 235.973 319.709C234.091 317.779 232.068 315.99 230.17 314.092C217.957 301.941 205.899 289.65 193.592 277.608C180.212 264.523 167.19 251.081 153.794 238.028C140.585 225.176 127.781 211.905 114.587 199.054C101.985 186.794 89.6937 174.207 77.1848 161.854C76.9203 161.605 76.687 161.325 76.4225 161.092C75.9402 160.656 75.8779 160.251 76.3914 159.769C78.5229 157.747 80.4365 155.506 82.7081 153.639C83.1437 153.281 83.5326 152.877 83.9216 152.472C95.6214 140.773 107.212 128.979 119.037 117.419C132.93 103.821 146.466 89.8811 160.391 76.3143C173.413 63.6187 186.046 50.5342 199.084 37.8542C211.64 25.6564 223.853 13.1164 236.315 0.825287C236.533 0.607483 236.891 0.483032 236.782 0.0629578L236.751 0.0473633Z"
+                                    fill="#FFFFFF" fill-opacity="0.35" />
+                                <path
+                                    d="M304.865 320.968H322.493C322.851 320.19 322.151 319.879 321.777 319.506C318.059 315.756 314.371 311.991 310.591 308.319C295.686 293.803 281.186 278.883 266.312 264.336C253.134 251.438 240.298 238.213 227.105 225.347C213.725 212.324 200.749 198.882 187.369 185.86C179.123 177.832 171.064 169.601 162.865 161.542C161.822 160.515 161.822 160.499 162.818 159.519C173.117 149.22 183.324 138.811 193.748 128.636C207.003 115.707 219.87 102.405 233.141 89.4913C246.413 76.5779 259.264 63.2601 272.535 50.3467C285.806 37.4333 298.704 24.1464 311.929 11.2019C315.258 7.93466 318.588 4.65195 321.917 1.3847C322.291 1.01129 322.882 0.731079 322.757 0.0309448H305.13C304.663 0.279877 304.259 0.606781 303.901 0.980164C296.791 8.26147 289.354 15.2159 282.181 22.4505C273.08 31.6299 264.025 40.8249 254.752 49.8331C241.59 62.6376 228.863 75.8468 215.701 88.6357C202.632 101.347 189.983 114.478 176.898 127.174C166.194 137.582 155.77 148.271 145.128 158.741C144.848 159.021 144.568 159.333 144.272 159.597C143.557 160.219 143.634 160.811 144.303 161.418C144.552 161.635 144.755 161.869 144.988 162.102C151.927 169.041 158.788 176.089 165.836 182.919C179.076 195.739 191.85 209.042 205.059 221.893C218.159 234.635 230.839 247.782 243.939 260.524C257.117 273.36 269.906 286.584 283.084 299.404C290.209 306.343 297.164 313.438 304.243 320.408C304.445 320.61 304.679 320.766 304.865 320.968Z"
+                                    fill="#FFFFFF" fill-opacity="0.75" />
+                                <path
+                                    d="M351.478 0.0477905H333.85C333.337 0.296722 332.933 0.68573 332.528 1.07468C317.997 15.1705 303.916 29.7176 289.447 43.8601C276.347 56.6646 263.605 69.8114 250.489 82.5847C237.389 95.327 224.709 108.474 211.609 121.216C198.866 133.616 186.435 146.343 173.771 158.852C173.491 159.132 173.195 159.412 172.931 159.707C172.308 160.423 172.308 160.594 172.962 161.341C173.211 161.605 173.475 161.854 173.724 162.119C182.655 171.049 191.492 180.089 200.562 188.91C213.802 201.793 226.638 215.095 239.863 227.977C252.869 240.642 265.472 253.695 278.478 266.36C291.75 279.273 304.616 292.575 317.872 305.489C322.944 310.436 327.923 315.462 332.979 320.425C333.181 320.627 333.415 320.783 333.602 320.985H351.229C351.509 320.643 351.276 320.378 351.089 320.129C350.871 319.834 350.607 319.6 350.342 319.336C347.728 316.722 345.146 314.061 342.485 311.494C328.467 297.959 314.963 283.925 301.022 270.311C288 257.616 275.351 244.531 262.313 231.851C248.762 218.658 235.615 205.044 222.064 191.851C211.795 181.862 201.776 171.609 191.585 161.559C190.481 160.47 190.403 160.656 191.616 159.443C203.83 147.23 215.934 134.923 228.272 122.85C241.621 109.796 254.612 96.385 267.992 83.3627C281.108 70.5893 293.834 57.4114 306.95 44.638C320.439 31.4912 333.602 18.0177 347.013 4.79315C348.242 3.57959 349.611 2.50601 350.778 1.23022C351.089 0.887939 351.587 0.639008 351.447 0.0477905H351.478Z"
+                                    fill="#FFFFFF" fill-opacity="0.85" />
+                                <path
+                                    d="M208.015 0.0464783H190.387C189.967 0.29541 189.578 0.559998 189.236 0.902283C183.744 6.56549 177.94 11.9021 172.386 17.5031C163.176 26.7914 153.996 36.1107 144.63 45.2435C130.97 58.5614 117.699 72.2684 104.038 85.5863C91.0939 98.2041 78.5383 111.195 65.5938 123.797C53.6451 135.42 42.0074 147.322 30.152 159.037C28.6584 160.515 28.674 160.515 30.1831 162.04C37.6355 169.492 45.0102 177.038 52.5715 184.382C66.3717 197.793 79.7363 211.624 93.5055 225.051C106.466 237.7 119.068 250.722 132.043 263.34C145.252 276.191 158.057 289.462 171.282 302.298C177.629 308.475 183.79 314.822 190.169 320.968H207.797C208.077 320.626 207.859 320.361 207.657 320.112C207.408 319.786 207.112 319.521 206.832 319.241C202.818 315.227 198.866 311.151 194.79 307.215C181.145 294.052 168.03 280.361 154.447 267.136C141.581 254.612 129.118 241.698 116.252 229.174C102.607 215.887 89.3825 202.211 75.7379 188.925C66.4495 179.885 57.3946 170.628 48.153 161.526C47.0483 160.453 46.9705 160.64 48.1841 159.41C59.3705 148.224 70.448 136.929 81.7745 125.882C95.108 112.86 108.068 99.4798 121.417 86.473C134.657 73.5908 147.493 60.304 160.717 47.4061C174.098 34.3838 187.12 21.0036 200.453 7.9191C202.725 5.69424 205.027 3.50049 207.283 1.27567C207.626 0.93338 208.155 0.653412 208.046 0.0155334L208.015 0.0464783Z"
+                                    fill="#FFFFFF" fill-opacity="0.25" />
+                                <path
+                                    d="M161.651 0.0477905C161.682 0.250031 161.511 0.312256 161.402 0.421173C108.052 53.4439 54.703 106.451 1.35349 159.458C1.04233 159.77 0.668945 160.034 0.264435 160.376C0.591156 160.719 0.793381 160.936 1.0112 161.154C47.6395 207.067 93.8788 253.353 140.352 299.437C147.213 306.236 154.058 313.05 160.904 319.865C161.215 320.176 161.76 320.378 161.682 320.985H179.076C179.434 320.331 178.858 320.036 178.532 319.694C177.023 318.138 175.467 316.613 173.926 315.073C168.154 309.301 162.444 303.435 156.579 297.756C142.81 284.423 129.523 270.623 115.816 257.258C102.732 244.5 90.0359 231.369 76.9358 218.627C63.4468 205.48 50.3311 191.944 36.8576 178.813C30.9765 173.087 25.22 167.238 19.3545 161.497C18.3899 160.563 18.4054 160.547 19.3856 159.552C27.2426 151.695 35.0062 143.744 42.972 136.012C56.3989 122.974 69.39 109.501 82.7858 96.4317C95.9637 83.5961 108.737 70.3715 121.915 57.5359C135.264 44.5447 148.224 31.1489 161.573 18.1421C167.221 12.6345 172.76 7.01801 178.376 1.49478C178.781 1.10583 179.418 0.81015 179.31 0.0633545H161.682L161.651 0.0477905Z"
+                                    fill="#FFFFFF" fill-opacity="0.1" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_0_230">
+                                    <rect width="191" height="289" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- communication -->
+        <section class="bg-[#1B1B1B]" id="contact">
+            <div class="container mx-auto max-w-screen-xl">
+                <div class="flex flex-col-reverse md:flex-row text-white justify-center lg:h-screen">
+                    <div
+                        class="flex-col p-4 flex justify-center mr-2 cursor-default border-solid items-center">
+                        <iframe class="md:w-[600px] md:h-[650px] w-[350px] h-[350px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12066.641763786314!2d29.258135000000003!3d40.87932545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cadc9f835830e9%3A0xf5e15cbe86630278!2sPendik%2C%20Kaynarca%2C%2034890%20Pendik%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1710180916563!5m2!1str!2str" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div
+                        class="flex-col p-4 flex justify-center mr-2 cursor-default border-solid items-center">
+                        <img class="w-1/2" src="./assets/LOGO-WHITE.png" alt="SMO YAPI">
+                        <h2 class="text-lg text-left">İletişim Bilgileri</h2>
+                        <ul class="py-4">
+                            <li class="flex my-2 items-center">
+                                <span class="mr-4">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.0734 10.1168C12.6611 10.1155 12.2564 10.2267 11.9026 10.4384C11.5489 10.65 11.2596 10.9541 11.0658 11.318C11.01 11.3994 10.9709 11.491 10.9505 11.5876C10.9301 11.6842 10.929 11.7838 10.9471 11.8809C10.9838 12.0768 11.0968 12.2502 11.2612 12.3628C11.4257 12.4755 11.6282 12.5182 11.8242 12.4815C11.9212 12.4634 12.0137 12.4263 12.0964 12.3724C12.1791 12.3185 12.2504 12.2489 12.3062 12.1674C12.6367 11.6841 12.7871 11.6085 12.9859 11.6178C14.3169 12.1934 15.5015 13.0609 16.4521 14.1561C16.5164 14.3335 16.514 14.5282 16.4453 14.704C16.3541 15.0479 16.1931 15.3694 15.9722 15.6484C15.7514 15.9274 15.4754 16.1579 15.1616 16.3257C14.8526 16.4485 14.5215 16.5062 14.1892 16.4949C13.8569 16.4836 13.5305 16.4038 13.2305 16.2602C10.6322 15.2226 8.26465 13.6815 6.26408 11.7257C4.3142 9.72768 2.77773 7.3646 1.74269 4.77186C1.59927 4.4719 1.51942 4.14554 1.50817 3.81326C1.49691 3.48097 1.55448 3.14995 1.67728 2.84098C1.84497 2.52739 2.07542 2.25168 2.3543 2.031C2.63317 1.81032 2.95449 1.6494 3.29825 1.55827C3.47354 1.48907 3.66802 1.48605 3.84537 1.54977C4.93813 2.49741 5.80492 3.67759 6.38217 5.00376C6.39237 5.21528 6.31676 5.36394 5.8342 5.69439C5.75276 5.75017 5.6831 5.82144 5.62921 5.90414C5.57531 5.98683 5.53823 6.07933 5.52008 6.17636C5.50194 6.27338 5.50309 6.37303 5.52346 6.46961C5.54383 6.5662 5.58302 6.65782 5.6388 6.73925C5.69459 6.82069 5.76587 6.89034 5.84857 6.94423C5.93127 6.99813 6.02378 7.0352 6.12082 7.05334C6.21785 7.07149 6.31751 7.07034 6.4141 7.04997C6.51069 7.02961 6.60233 6.99041 6.68377 6.93464C7.04721 6.74064 7.35088 6.45122 7.5621 6.09753C7.77332 5.74384 7.88409 5.33926 7.88251 4.92731C7.2728 2.98733 6.03707 1.3042 4.3687 0.141331C3.86874 -0.0438441 3.31955 -0.0471522 2.81739 0.131987C2.27764 0.286337 1.77596 0.551412 1.34432 0.910324C0.912676 1.26924 0.560532 1.71411 0.310325 2.21661C0.0991648 2.71133 -0.00642669 3.24466 0.000302547 3.78251C0.00703178 4.32036 0.125934 4.85088 0.349405 5.34016C1.46146 8.11816 3.11148 10.6491 5.20468 12.7876L5.21997 12.8029C7.35792 14.8924 9.88725 16.5396 12.663 17.65C13.1939 17.8739 13.7631 17.9928 14.3392 18C14.8376 18.0015 15.3304 17.8949 15.7835 17.6874C16.2861 17.4371 16.7311 17.0849 17.09 16.6531C17.449 16.2214 17.714 15.7196 17.8683 15.1797C18.0468 14.6787 18.0438 14.131 17.8598 13.632C16.696 11.9628 15.011 10.727 13.0691 10.1185L13.0734 10.1168Z"
+                                            fill="#fff" />
+                                    </svg>
+                                </span>
+                                <p class="text-slate-300 font-light"><a href="tel:+90216455">+90 (216) 455 55 55</a></p>
+                            </li>
+                            <li class="flex my-2 items-center">
+                                <span class="mr-4">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.0015 0.000244141C7.34893 0.00024418 4.80501 1.05381 2.92937 2.92918C1.05372 4.80454 0 7.34808 0 10.0002C0 12.6524 1.05372 15.1959 2.92937 17.0713C4.80501 18.9467 7.34893 20.0002 10.0015 20.0002C10.1952 19.9937 10.3788 19.9122 10.5136 19.7728C10.6483 19.6335 10.7236 19.4473 10.7236 19.2535C10.7236 19.0596 10.6483 18.8734 10.5136 18.7341C10.3788 18.5947 10.1952 18.5132 10.0015 18.5067C8.31898 18.5065 6.6743 18.0075 5.27542 17.0728C3.87654 16.1381 2.78627 14.8096 2.14248 13.2554C1.49869 11.7011 1.33029 9.99095 1.65858 8.34102C1.98686 6.6911 2.79708 5.17555 3.98679 3.98602C5.1765 2.79648 6.69227 1.98638 8.34244 1.65815C9.99261 1.32992 11.7031 1.49829 13.2575 2.14199C14.812 2.78568 16.1407 3.87578 17.0755 5.27446C18.0104 6.67313 18.5094 8.31756 18.5096 9.99982V12.3127C18.5096 12.7282 18.3445 13.1266 18.0507 13.4204C17.7569 13.7142 17.3584 13.8792 16.9428 13.8792C16.5273 13.8792 16.1288 13.7142 15.835 13.4204C15.5412 13.1266 15.3761 12.7282 15.3761 12.3127L15.3761 9.99982C15.3789 8.735 14.936 7.50962 14.1252 6.53876C13.3144 5.5679 12.1875 4.9136 10.9423 4.69073C9.69706 4.46785 8.41312 4.69064 7.31582 5.31997C6.21852 5.94931 5.37799 6.94498 4.94176 8.13222C4.50553 9.31946 4.50148 10.6224 4.93033 11.8123C5.35917 13.0022 6.19351 14.0031 7.28688 14.6393C8.38024 15.2754 9.66278 15.5061 10.9094 15.291C12.1559 15.0759 13.2869 14.4286 14.1037 13.4628C14.3707 14.1204 14.858 14.6647 15.4823 15.0027C16.1065 15.3406 16.8288 15.451 17.5255 15.3151C18.2222 15.1793 18.85 14.8055 19.3014 14.2577C19.7528 13.71 19.9998 13.0224 20 12.3127V9.99982C19.9978 7.3489 18.9437 4.80716 17.0692 2.93243C15.1947 1.05771 12.6528 0.0031637 10.0015 0.000244141ZM10.0015 13.8801C9.2341 13.8801 8.48395 13.6525 7.84589 13.2263C7.20783 12.8 6.71053 12.1941 6.41686 11.4852C6.12319 10.7764 6.04636 9.99636 6.19607 9.24384C6.34578 8.49131 6.71531 7.80007 7.25793 7.25752C7.80055 6.71498 8.4919 6.3455 9.24454 6.19582C9.99718 6.04613 10.7773 6.12295 11.4863 6.41658C12.1953 6.7102 12.8012 7.20743 13.2276 7.84539C13.6539 8.48336 13.8815 9.2334 13.8815 10.0007C13.8815 11.0295 13.4727 12.0163 12.745 12.7438C12.0174 13.4713 11.0305 13.8801 10.0015 13.8801Z"
+                                            fill="#fff" />
+                                    </svg>
+                                </span>
+                                <p class="text-slate-300 font-light"><a href="mailto:info@smoyapi.com">info@smoyapi.com</a></p>
+                            </li>
+                            <li class="flex my-2 items-center">
+                                <span class="mr-4">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.642 1.10644L2.01116 7.85939C1.65579 8.01784 1.36528 8.29302 1.1878 8.63928C1.01032 8.98555 0.956546 9.38208 1.0354 9.76311C1.11426 10.1441 1.321 10.4868 1.62133 10.7341C1.92167 10.9815 2.29754 11.1188 2.6866 11.1231H8.87656V17.3133C8.88093 17.7024 9.01819 18.0783 9.26555 18.3786C9.51291 18.679 9.85551 18.8857 10.2365 18.9646C10.6175 19.0435 11.0141 18.9897 11.3603 18.8122C11.7066 18.6347 11.9817 18.3442 12.1402 17.9888L18.8929 3.36007C19.008 3.04577 19.0309 2.70512 18.9589 2.37825C18.8869 2.05137 18.7229 1.75188 18.4864 1.51506C18.2499 1.27824 17.9506 1.11396 17.6238 1.04157C17.297 0.969172 16.9564 0.991681 16.642 1.10644Z"
+                                            stroke="#fff" stroke-width="1.5" />
+                                    </svg>
+                                </span>
+                                <p class="text-slate-300 font-light">Orta Mah.
+                                    Kartal/İstanbul</p>
+                            </li>
+                        </ul>
+                        <ul class="flex py-4">
+                            <li class="flex m-2 items-center">
+                                <a class="text-slate-300 font-light" href="https://www.instagram.com/smoyapi/" target="_blank" rel="nofollow">
+                                    <svg class="group fill-[#2E2E2E] opacity-50 hover:opacity-100 hover:fill-[#fff] transition-colors transition-duration duration-300"
+                                        width="42" height="41" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M 499.968 12.058 L -0.941 12.058 L -0.941 501.464 L 499.968 501.464 L 499.968 12.058 Z" ></path>
+                                        <path class="group-hover:fill-[#3B3B3B]" d="M 249.453 183.949 C 277.651 183.949 280.991 184.054 292.126 184.55 C 302.422 185.009 308.013 186.69 311.735 188.103 C 316.664 189.974 320.182 192.211 323.878 195.822 C 327.573 199.432 329.862 202.869 331.776 207.685 C 333.223 211.321 334.943 216.785 335.413 226.845 C 335.921 237.725 336.028 240.989 336.028 268.538 C 336.028 296.09 335.921 299.352 335.413 310.233 C 334.943 320.293 333.223 325.756 331.776 329.393 C 329.862 334.208 327.573 337.646 323.878 341.257 C 320.182 344.867 316.664 347.103 311.735 348.974 C 308.013 350.388 302.422 352.069 292.126 352.528 C 280.992 353.024 277.653 353.129 249.453 353.129 C 221.255 353.129 217.915 353.024 206.782 352.528 C 196.485 352.069 190.893 350.388 187.172 348.974 C 182.242 347.103 178.724 344.867 175.03 341.257 C 171.334 337.646 169.046 334.208 167.13 329.393 C 165.684 325.756 163.963 320.293 163.494 310.233 C 162.986 299.352 162.878 296.09 162.878 268.538 C 162.878 240.989 162.986 237.725 163.494 226.845 C 163.963 216.785 165.684 211.321 167.13 207.685 C 169.046 202.869 171.334 199.432 175.03 195.822 C 178.724 192.211 182.242 189.974 187.172 188.103 C 190.893 186.69 196.485 185.009 206.781 184.55 C 217.917 184.054 221.256 183.949 249.453 183.949 M 249.453 165.357 C 220.773 165.357 217.177 165.475 205.913 165.978 C 194.673 166.479 186.996 168.223 180.279 170.774 C 173.335 173.411 167.446 176.939 161.575 182.675 C 155.704 188.412 152.093 194.165 149.394 200.95 C 146.784 207.514 144.998 215.014 144.486 225.997 C 143.971 237.002 143.851 240.516 143.851 268.538 C 143.851 296.561 143.971 300.075 144.486 311.08 C 144.998 322.063 146.784 329.563 149.394 336.126 C 152.093 342.912 155.704 348.666 161.575 354.403 C 167.446 360.139 173.335 363.666 180.279 366.303 C 186.996 368.854 194.673 370.598 205.913 371.099 C 217.177 371.602 220.773 371.72 249.453 371.72 C 278.134 371.72 281.73 371.602 292.993 371.099 C 304.234 370.598 311.91 368.854 318.627 366.303 C 325.573 363.666 331.461 360.139 337.332 354.403 C 343.203 348.666 346.813 342.912 349.513 336.126 C 352.123 329.563 353.908 322.063 354.421 311.08 C 354.935 300.075 355.057 296.561 355.057 268.538 C 355.057 240.516 354.935 237.002 354.421 225.997 C 353.908 215.014 352.123 207.514 349.513 200.95 C 346.813 194.165 343.203 188.412 337.332 182.675 C 331.461 176.939 325.573 173.411 318.627 170.774 C 311.91 168.223 304.234 166.479 292.993 165.978 C 281.73 165.475 278.134 165.357 249.453 165.357 Z M 249.453 215.554 C 219.504 215.554 195.225 239.276 195.225 268.538 C 195.225 297.801 219.504 321.524 249.453 321.524 C 279.403 321.524 303.682 297.801 303.682 268.538 C 303.682 239.276 279.403 215.554 249.453 215.554 Z M 249.453 302.933 C 230.013 302.933 214.252 287.534 214.252 268.538 C 214.252 249.544 230.013 234.144 249.453 234.144 C 268.894 234.144 284.655 249.544 284.655 268.538 C 284.655 287.534 268.894 302.933 249.453 302.933 Z M 318.497 213.46 C 318.497 220.299 312.823 225.842 305.824 225.842 C 298.826 225.842 293.153 220.299 293.153 213.46 C 293.153 206.622 298.826 201.079 305.824 201.079 C 312.823 201.079 318.497 206.622 318.497 213.46 Z" fill="white"></path>
+                                      </svg>
+                                </a>
+                            </li>
+                            <li class="flex m-2 items-center">
+                                <a class="text-slate-300 font-light" href="" target="_blank" rel="nofollow">
+                                    <svg class="group fill-[#2E2E2E] opacity-50 hover:opacity-100 hover:fill-[#fff] transition-colors transition-duration duration-300"
+                                        width="42" height="41" viewBox="0 0 42 41" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M41.785 0H0.924744V40.8602H41.785V0Z" />
+                                        <path class="group-hover:fill-[#3B3B3B]"
+                                            d="M29.7058 16.5664C29.6101 16.2074 29.4219 15.8798 29.1601 15.6163C28.8983 15.3527 28.5719 15.1624 28.2136 15.0644C26.8979 14.7097 21.6204 14.7097 21.6204 14.7097C21.6204 14.7097 16.3429 14.7097 15.0272 15.0644C14.6689 15.1624 14.3425 15.3527 14.0807 15.6163C13.8188 15.8798 13.6307 16.2074 13.535 16.5664C13.2917 17.9146 13.1735 19.2825 13.1819 20.6524C13.1735 22.0224 13.2917 23.3902 13.535 24.7384C13.6311 25.0945 13.8198 25.4188 14.0819 25.6784C14.344 25.9379 14.6702 26.1234 15.0272 26.216C16.3429 26.5706 21.6204 26.5706 21.6204 26.5706C21.6204 26.5706 26.8979 26.5706 28.2136 26.216C28.5706 26.1234 28.8968 25.9379 29.1589 25.6784C29.421 25.4188 29.6097 25.0945 29.7058 24.7384C29.9491 23.3902 30.0672 22.0224 30.0588 20.6524C30.0672 19.2825 29.9491 17.9146 29.7058 16.5664ZM19.8945 23.1637V18.142L24.3074 20.6516L19.8945 23.1604V23.1637Z"
+                                            fill="white" />
+                                    </svg>
+
+                                </a>
+                            </li>
+                            <li class="flex m-2 items-center">
+                                <a class="text-slate-300 font-light" href="" target="_blank" rel="nofollow">
+                                    <svg class="group fill-[#2E2E2E] opacity-50 hover:opacity-100 hover:fill-[#fff] transition-colors transition-duration duration-300"
+                                        width="41" height="41" viewBox="0 0 41 41" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M40.8924 0H0.0322266V40.8602H40.8924V0Z" />
+                                        <path class="group-hover:fill-[#3B3B3B]"
+                                            d="M16.5464 27.4311H13.5767V17.869H16.5464V27.4311ZM15.0566 16.5648C14.7153 16.5657 14.3813 16.4655 14.0968 16.2768C13.8124 16.0881 13.5902 15.8194 13.4583 15.5045C13.3264 15.1896 13.2908 14.8427 13.3559 14.5077C13.4211 14.1726 13.584 13.8643 13.8242 13.6217C14.0644 13.3791 14.371 13.2131 14.7055 13.1447C15.0399 13.0763 15.3871 13.1084 15.7033 13.2372C16.0194 13.3659 16.2904 13.5854 16.4819 13.868C16.6734 14.1506 16.7769 14.4836 16.7793 14.8249C16.7808 15.2839 16.6004 15.7247 16.2775 16.0508C15.9546 16.3769 15.5156 16.5617 15.0566 16.5648ZM27.6555 27.4336H24.6997V22.7755C24.6997 21.6666 24.6776 20.2422 23.156 20.2422C21.6123 20.2422 21.3753 21.4475 21.3753 22.6938V27.4287H18.4072V17.869H21.2543V19.1765H21.296C21.5808 18.6891 21.9926 18.2881 22.4874 18.0163C22.9821 17.7444 23.5414 17.6119 24.1056 17.6328C27.1104 17.6328 27.6628 19.6113 27.6628 22.1822V27.4344L27.6555 27.4336Z"
+                                            fill="white" />
+                                    </svg>
+
+                                </a>
+                            </li>
+                            <li class="flex m-2 items-center">
+                                <a class="text-slate-300 font-light" href="https://x.com/smoyapi" target="_blank" rel="nofollow">
+                                    <svg width="41" height="41" viewBox="0 0 40 40" class="group fill-[#2E2E2E] opacity-50 hover:opacity-100 hover:fill-[#fff] transition-colors transition-duration duration-300" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M40.8924 0H0.0322266V40.8602H40.8924V0Z"></path>
+                                        <path class="group-hover:fill-[#3B3B3B]" d="M 25.103 12.467 L 28.144 12.467 L 21.501 19.989 L 29.315 30.224 L 23.197 30.224 L 18.404 24.017 L 12.92 30.224 L 9.877 30.224 L 16.983 22.179 L 9.486 12.467 L 15.761 12.467 L 20.092 18.141 L 25.103 12.467 Z M 24.036 28.421 L 25.72 28.421 L 14.845 14.176 L 13.037 14.176 L 24.036 28.421 Z" fill="white"></path>
+                                      </svg>
+
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </section>
+
+        <!-- smoyapi.com -->
+        <section class="bg-[#1E1E1E]">
+            <div class="container mx-auto max-w-screen-xl py-6">
+                <p class="smoyapi text-slate-300 font-light text-sm text-center md:text-left">© 2024 smoyapi.com | Tüm Hakları
+                    Saklıdır.</p>
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="https://flowbite.com/docs/flowbite.min.js"></script>
+    <script src="lang.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
